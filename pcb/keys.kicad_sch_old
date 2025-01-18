@@ -1,0 +1,6273 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1c507710-ffd7-455e-ac57-b1667db3dbc2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 44.45 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ec26142-a78f-43fe-a8c1-de0d6825a218")
+	)
+	(junction
+		(at 95.25 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1053cacf-609b-4508-a0be-df77917fc389")
+	)
+	(junction
+		(at 46.99 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "237a1eca-b059-4578-a7a4-2c32b5710b24")
+	)
+	(junction
+		(at 95.25 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27da51e1-4ae0-4cbd-b84b-a713d34112f9")
+	)
+	(junction
+		(at 59.69 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27e66162-61dc-4205-b16e-0a5a5ea578c0")
+	)
+	(junction
+		(at 69.85 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d7e6b71-dd97-4ec1-92b6-2e5135648da8")
+	)
+	(junction
+		(at 34.29 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dded239-c4fb-4907-a933-91de38bc4b4d")
+	)
+	(junction
+		(at 82.55 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e91653b-ebb0-4c39-b3c0-d791143643c3")
+	)
+	(junction
+		(at 34.29 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3046246b-618e-4968-81a3-cea16e39db79")
+	)
+	(junction
+		(at 57.15 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "347e09b4-b7bf-46f2-accc-3e6beb935c43")
+	)
+	(junction
+		(at 34.29 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b4a1d1-df62-4f71-8c84-9436d8c95a8d")
+	)
+	(junction
+		(at 69.85 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36e9bfbc-877b-406f-928e-cb67d5a103cc")
+	)
+	(junction
+		(at 46.99 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38a41e90-fb63-4037-a71c-611608618c15")
+	)
+	(junction
+		(at 44.45 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a349e0c-c0c3-4bff-8277-7e81f126f6b8")
+	)
+	(junction
+		(at 82.55 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cbe6f7d-c732-4d7a-abe3-a81f55bb1af3")
+	)
+	(junction
+		(at 72.39 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47db4ea0-98bb-4dd5-b549-37febf3411b6")
+	)
+	(junction
+		(at 69.85 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47eee337-16f9-485f-b2e4-4e039a7ecc0e")
+	)
+	(junction
+		(at 57.15 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4864a38c-6d4a-4c40-898c-907fa073878c")
+	)
+	(junction
+		(at 72.39 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c6b1b84-ab38-4b4f-b919-cb2215933c69")
+	)
+	(junction
+		(at 57.15 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e04bddb-b739-464a-a12c-d4236ff5b348")
+	)
+	(junction
+		(at 95.25 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "534afbbf-bc36-4a86-85db-c9c7ab75dbdd")
+	)
+	(junction
+		(at 72.39 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b87118c-8596-449f-8255-cead3b09d167")
+	)
+	(junction
+		(at 46.99 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ef417fb-8ff8-4a9a-9d9c-4c906666063b")
+	)
+	(junction
+		(at 59.69 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60bb31c6-6cab-4d74-bfd2-b0d353198ca9")
+	)
+	(junction
+		(at 34.29 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6608cf90-eb84-4fab-b052-abdcbbc4985e")
+	)
+	(junction
+		(at 69.85 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66e0a5a6-0a97-4f33-8bba-992f0a9805bc")
+	)
+	(junction
+		(at 46.99 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "693405e0-95b7-4283-b002-4a896c296b15")
+	)
+	(junction
+		(at 72.39 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b9968e-129d-4995-a54a-6c1efa5ff801")
+	)
+	(junction
+		(at 44.45 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e2a5535-200c-4836-9e2c-d1818d712cf1")
+	)
+	(junction
+		(at 59.69 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f51211f-5040-4d3a-85e1-fed256c3e572")
+	)
+	(junction
+		(at 46.99 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82fd5be0-a08e-4776-a057-46fad86abf9b")
+	)
+	(junction
+		(at 59.69 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "946bfb22-835a-4271-a4f7-3cdc4a51178f")
+	)
+	(junction
+		(at 34.29 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aeb8c52-6a75-4e9c-a4ef-6e10a6c05fee")
+	)
+	(junction
+		(at 69.85 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2947040-1fdf-444c-99b1-42243252248b")
+	)
+	(junction
+		(at 82.55 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abcc42e3-3cbf-4eb1-96fa-428c02968dbc")
+	)
+	(junction
+		(at 57.15 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0f4b6f8-113e-4537-9dae-e4e31f481d5f")
+	)
+	(junction
+		(at 72.39 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8d681ce-496d-4e9a-b57f-5d207db1335c")
+	)
+	(junction
+		(at 34.29 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf641946-b93f-4cc5-a958-91a512b5b78c")
+	)
+	(junction
+		(at 44.45 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c056f21a-6384-43d6-a88d-c2d54c3494d4")
+	)
+	(junction
+		(at 59.69 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0b5f816-8ffd-4a33-8ba6-c75c89082018")
+	)
+	(junction
+		(at 82.55 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1709a29-d013-48ce-a27e-5ad7a92e681d")
+	)
+	(junction
+		(at 82.55 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2924ee7-c4ca-4a4c-b46a-5b99508796d7")
+	)
+	(junction
+		(at 72.39 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c35de1f5-f84a-42d0-a9e9-de8a8d25f744")
+	)
+	(junction
+		(at 95.25 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7224018-3395-4a59-80f4-aef6da16128d")
+	)
+	(junction
+		(at 95.25 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9aed08-014c-4b9f-9ef2-4261dd80297c")
+	)
+	(junction
+		(at 57.15 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd313bc0-2f46-4292-ac8f-9dd437b3b379")
+	)
+	(junction
+		(at 44.45 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c9673b-1f46-4de5-8d92-12d86d348c25")
+	)
+	(junction
+		(at 46.99 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4d28389-50a9-49e9-807c-ff38209114bc")
+	)
+	(junction
+		(at 59.69 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9a80b3d-465e-4ccb-a2d7-9084c0c5e9f8")
+	)
+	(wire
+		(pts
+			(xy 72.39 86.36) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e07a0a-98e8-4f39-9698-f2f9ee10e93e")
+	)
+	(wire
+		(pts
+			(xy 95.25 83.82) (xy 95.25 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb101c6-16c3-48ef-bb07-6c41aa7f1b3d")
+	)
+	(wire
+		(pts
+			(xy 72.39 48.26) (xy 85.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb62d88-5139-4056-bbad-7a28364d3768")
+	)
+	(wire
+		(pts
+			(xy 72.39 22.86) (xy 85.09 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f286b5e-fbd5-4f01-babd-abef43b9bde8")
+	)
+	(wire
+		(pts
+			(xy 95.25 96.52) (xy 95.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff4ad80-6f86-4621-b068-95671b5983ed")
+	)
+	(wire
+		(pts
+			(xy 69.85 33.02) (xy 69.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10eb0e34-8d74-4827-b601-287818fa4f4b")
+	)
+	(wire
+		(pts
+			(xy 44.45 33.02) (xy 44.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11347bb2-d911-4ccd-be96-a4a277609c14")
+	)
+	(wire
+		(pts
+			(xy 46.99 48.26) (xy 59.69 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14728b36-8f4b-4836-a18e-10f12fc68c98")
+	)
+	(wire
+		(pts
+			(xy 69.85 58.42) (xy 69.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c42140-c158-474c-9ce1-fcd4f0b72a91")
+	)
+	(wire
+		(pts
+			(xy 57.15 83.82) (xy 57.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3634f6-d8cc-400b-a8b2-7b2566969daf")
+	)
+	(wire
+		(pts
+			(xy 57.15 45.72) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2581be70-b0ab-40a0-ad09-9cda88f474c7")
+	)
+	(wire
+		(pts
+			(xy 34.29 45.72) (xy 36.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c706405-36db-43c4-bedc-d8645381b1f5")
+	)
+	(wire
+		(pts
+			(xy 57.15 58.42) (xy 57.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb6abee-8ee5-47c3-967d-285a906fc8d6")
+	)
+	(wire
+		(pts
+			(xy 46.99 33.02) (xy 49.53 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d535377-d350-4a07-97ba-7ce456128cfb")
+	)
+	(wire
+		(pts
+			(xy 85.09 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb9b0d5-3b67-4406-990c-8430b3fcf0a6")
+	)
+	(wire
+		(pts
+			(xy 59.69 86.36) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328012de-8387-4858-94dd-9085d6a97971")
+	)
+	(wire
+		(pts
+			(xy 59.69 48.26) (xy 72.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32928965-4ace-4772-98d9-cd5c7f6616da")
+	)
+	(wire
+		(pts
+			(xy 44.45 58.42) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367a5cf8-7ada-4286-8d98-a1ffb4b29850")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 82.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36868990-9efe-4cf2-bde1-da12ccd8f6b2")
+	)
+	(wire
+		(pts
+			(xy 69.85 83.82) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e440a0-6154-4458-a698-2ae3a46ee922")
+	)
+	(wire
+		(pts
+			(xy 69.85 45.72) (xy 69.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a8c8f6d-763d-4532-a289-737d0d9f2ef8")
+	)
+	(wire
+		(pts
+			(xy 85.09 45.72) (xy 87.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3addb472-33d4-423a-aed8-46a59162d865")
+	)
+	(wire
+		(pts
+			(xy 57.15 71.12) (xy 57.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca34329-c46d-4764-b091-47ec858d3f81")
+	)
+	(wire
+		(pts
+			(xy 72.39 83.82) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407f1efc-00aa-4f44-a03e-a38957bb4d67")
+	)
+	(wire
+		(pts
+			(xy 59.69 73.66) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40faa9d1-a687-40fc-bac9-d8dc37772040")
+	)
+	(wire
+		(pts
+			(xy 72.39 35.56) (xy 85.09 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457a97aa-0c1b-4497-a440-10213683ae8c")
+	)
+	(wire
+		(pts
+			(xy 72.39 73.66) (xy 85.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57df9837-676d-42a2-9a39-2af5b6323858")
+	)
+	(wire
+		(pts
+			(xy 34.29 73.66) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595f8813-4c38-451e-89fe-b0619b4d837e")
+	)
+	(wire
+		(pts
+			(xy 44.45 45.72) (xy 44.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa2ef9d-174a-4451-b6c9-037a706ca8ae")
+	)
+	(wire
+		(pts
+			(xy 72.39 58.42) (xy 74.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc88eb2-fe60-404f-80fc-47890e56bbff")
+	)
+	(wire
+		(pts
+			(xy 82.55 33.02) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b32707-255d-4f66-9802-48098c793864")
+	)
+	(wire
+		(pts
+			(xy 82.55 96.52) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1a33ea-c128-4d4e-94e7-06823ef36c42")
+	)
+	(wire
+		(pts
+			(xy 21.59 48.26) (xy 34.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcc36a1-7fce-43ac-8b0a-383eb3599c2b")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 74.93 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf6799d-4f7c-4623-b3ae-d8f6f6f8595d")
+	)
+	(wire
+		(pts
+			(xy 59.69 22.86) (xy 72.39 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc95a70-c3f4-4182-852f-bf92c316386d")
+	)
+	(wire
+		(pts
+			(xy 59.69 96.52) (xy 62.23 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723dc800-3323-4f8b-a735-e8243b12c53e")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 85.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c9ddcd-9202-442e-a4dd-475ada58da30")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 72.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799ca9e8-c9bf-4dda-b268-25bd2e0082ac")
+	)
+	(wire
+		(pts
+			(xy 44.45 83.82) (xy 44.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb6f8b8-eaca-4b0c-8476-08a2c16dd1a5")
+	)
+	(wire
+		(pts
+			(xy 46.99 73.66) (xy 59.69 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db1a7ea-6279-4f02-a176-f78cb1c3cff8")
+	)
+	(wire
+		(pts
+			(xy 34.29 33.02) (xy 36.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bc5464-ee6b-4788-9e2a-dd2389f2fdd9")
+	)
+	(wire
+		(pts
+			(xy 72.39 71.12) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86871bb6-158b-441d-8c6e-e4abdcbc43dd")
+	)
+	(wire
+		(pts
+			(xy 44.45 96.52) (xy 44.45 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91161477-2b6e-4aba-aa43-a7c6cbff0cd0")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.82) (xy 82.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9250cc55-dacf-494a-b40b-c1fc5f3a4d6c")
+	)
+	(wire
+		(pts
+			(xy 59.69 45.72) (xy 62.23 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929a1f98-bb44-4c7b-b411-b922640e027a")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fab6e3-913f-4058-b047-851bf2b08756")
+	)
+	(wire
+		(pts
+			(xy 44.45 71.12) (xy 44.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95aa9bc8-8c91-4634-a007-bd08a8560d97")
+	)
+	(wire
+		(pts
+			(xy 82.55 71.12) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ee52f5-dca1-4d52-80a3-904dd37b2a6a")
+	)
+	(wire
+		(pts
+			(xy 34.29 22.86) (xy 46.99 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fced64-9605-402a-97ca-fac54b88391f")
+	)
+	(wire
+		(pts
+			(xy 34.29 48.26) (xy 46.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a929485-318f-4db4-9c4d-36afc56b8f05")
+	)
+	(wire
+		(pts
+			(xy 59.69 58.42) (xy 62.23 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2999da7-2ea6-4496-ad83-2f7b6f76fb9c")
+	)
+	(wire
+		(pts
+			(xy 21.59 22.86) (xy 34.29 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51dd2ce-2b8d-433c-9b8b-fc2195e5755d")
+	)
+	(wire
+		(pts
+			(xy 21.59 73.66) (xy 34.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53e8a8e-3294-43cb-b26f-33e068ed3c57")
+	)
+	(wire
+		(pts
+			(xy 21.59 35.56) (xy 34.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a625c52b-06da-4bb2-a88c-b217a16dabb9")
+	)
+	(wire
+		(pts
+			(xy 21.59 86.36) (xy 34.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66407e2-c5fa-4eaf-9670-0bb2f02af57e")
+	)
+	(wire
+		(pts
+			(xy 34.29 35.56) (xy 46.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8bccc4f-3265-4aef-a131-dd7110134794")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 82.55 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab89600-25ae-4f06-a088-9b2ff11c53f7")
+	)
+	(wire
+		(pts
+			(xy 34.29 60.96) (xy 46.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf10206-dd1c-4de7-82e3-2ed6af7ec0c4")
+	)
+	(wire
+		(pts
+			(xy 46.99 83.82) (xy 49.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf7bb93-2fb4-4d9b-9155-1bbe487d84a7")
+	)
+	(wire
+		(pts
+			(xy 59.69 83.82) (xy 62.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afaa2539-8e26-4ac0-a6ef-729246bb03e6")
+	)
+	(wire
+		(pts
+			(xy 46.99 71.12) (xy 49.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46b4ac7-ea83-40a4-a05f-e267abb131bb")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 62.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5569164-6c05-453f-96e9-d0bfd43e31f2")
+	)
+	(wire
+		(pts
+			(xy 46.99 22.86) (xy 59.69 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d63d29-83a9-45f6-a8a3-74a15d98a150")
+	)
+	(wire
+		(pts
+			(xy 72.39 33.02) (xy 74.93 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa16fda-fc47-4705-9ce2-e7cb2be64773")
+	)
+	(wire
+		(pts
+			(xy 85.09 33.02) (xy 87.63 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badf3b7d-41fc-41eb-b859-9bf0a7daf3d4")
+	)
+	(wire
+		(pts
+			(xy 85.09 71.12) (xy 87.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6cc08c-929d-4f50-85e3-73b1730c4145")
+	)
+	(wire
+		(pts
+			(xy 34.29 83.82) (xy 36.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc76ca4-dac8-46c0-83bc-5d9318b8eaae")
+	)
+	(wire
+		(pts
+			(xy 34.29 86.36) (xy 46.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c220a619-2286-4d13-9744-aebf6753c4cd")
+	)
+	(wire
+		(pts
+			(xy 95.25 33.02) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ee6d88-cb82-45bd-9114-9c471c2e13f5")
+	)
+	(wire
+		(pts
+			(xy 72.39 45.72) (xy 74.93 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4307eef-3842-46e2-9fb6-4fcc0c2823d3")
+	)
+	(wire
+		(pts
+			(xy 57.15 33.02) (xy 57.15 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57ced55-b53d-4f17-be6b-4a4376213fe8")
+	)
+	(wire
+		(pts
+			(xy 46.99 86.36) (xy 59.69 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e335eb-5759-4fde-9ab6-bb85717af795")
+	)
+	(wire
+		(pts
+			(xy 85.09 58.42) (xy 87.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d42849-459b-4628-8b24-fae69fc5846a")
+	)
+	(wire
+		(pts
+			(xy 34.29 96.52) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8e1f9b-041b-47fc-943c-9a152fc5c0a9")
+	)
+	(wire
+		(pts
+			(xy 69.85 71.12) (xy 69.85 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e8ed65-7805-4eb9-8369-e9d703c05dda")
+	)
+	(wire
+		(pts
+			(xy 46.99 45.72) (xy 49.53 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d198a1de-b5e6-46df-9732-dcefce93f8a5")
+	)
+	(wire
+		(pts
+			(xy 69.85 96.52) (xy 69.85 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46c956d-9b56-4740-80d1-eb1fbcf4cdce")
+	)
+	(wire
+		(pts
+			(xy 57.15 96.52) (xy 57.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb97557-c53e-4a8b-9a2e-8f923f507605")
+	)
+	(wire
+		(pts
+			(xy 34.29 58.42) (xy 36.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de32b58e-862b-4839-90a7-dbb7ad0ee9dd")
+	)
+	(wire
+		(pts
+			(xy 34.29 71.12) (xy 36.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0aab36a-2700-4def-8067-19c6a4b71a60")
+	)
+	(wire
+		(pts
+			(xy 59.69 71.12) (xy 62.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c4789d-4ff3-4455-a62f-558732902246")
+	)
+	(wire
+		(pts
+			(xy 46.99 96.52) (xy 49.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd4d8e9-d0aa-40cc-af65-ba607402cc34")
+	)
+	(wire
+		(pts
+			(xy 21.59 60.96) (xy 34.29 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee07091a-0e77-457d-839f-31be21965abb")
+	)
+	(wire
+		(pts
+			(xy 59.69 35.56) (xy 72.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee420bac-3411-4e83-bbcf-2f02a4f8fb21")
+	)
+	(wire
+		(pts
+			(xy 85.09 96.52) (xy 87.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea4cd0e-4be9-4340-bbaa-943cfa4cc396")
+	)
+	(wire
+		(pts
+			(xy 95.25 58.42) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1544b9-3841-4e93-ae49-225bcbadf3f9")
+	)
+	(wire
+		(pts
+			(xy 95.25 45.72) (xy 95.25 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dfb9f4-caf7-4d4e-ac3a-9c9b346776e7")
+	)
+	(wire
+		(pts
+			(xy 46.99 35.56) (xy 59.69 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e80e9c-ae18-47a3-9581-a4eb4ec0fe86")
+	)
+	(wire
+		(pts
+			(xy 46.99 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c26881-18c6-477e-bf8a-aa68d11b8cca")
+	)
+	(wire
+		(pts
+			(xy 46.99 58.42) (xy 49.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5911de-358c-4051-8b4d-37cc94b54137")
+	)
+	(text "6x5 matrix"
+		(exclude_from_sim no)
+		(at 64.77 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a585d42-1818-4628-8745-3361fd21a70e")
+	)
+	(hierarchical_label "X3"
+		(shape input)
+		(at 82.55 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "010801b8-f714-4057-91b1-f2c817d81015")
+	)
+	(hierarchical_label "X1"
+		(shape input)
+		(at 57.15 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a933368-595c-4151-bcdf-b585a3e8524c")
+	)
+	(hierarchical_label "Y5"
+		(shape input)
+		(at 21.59 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23f41e24-c38b-4e48-9d7e-6cf08dc4b0a1")
+	)
+	(hierarchical_label "Y3"
+		(shape input)
+		(at 21.59 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c0caa8f-3098-468b-b442-d0d25143b1c4")
+	)
+	(hierarchical_label "X4"
+		(shape input)
+		(at 95.25 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d9ce70d-065e-41bc-9e85-86de3d056bad")
+	)
+	(hierarchical_label "Y4"
+		(shape input)
+		(at 21.59 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84289331-6cc5-4170-96c2-ab2e87df0215")
+	)
+	(hierarchical_label "X2"
+		(shape input)
+		(at 69.85 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97ac9e06-2695-40f2-971d-9e793f5ab414")
+	)
+	(hierarchical_label "Y0"
+		(shape input)
+		(at 21.59 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf25503c-fa42-427a-bc13-acfeb8b29eaa")
+	)
+	(hierarchical_label "Y2"
+		(shape input)
+		(at 21.59 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c916d756-b929-45d8-b225-207cc7dbf369")
+	)
+	(hierarchical_label "X0"
+		(shape input)
+		(at 44.45 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f278cd9d-e144-416e-bf62-97a20a3131d1")
+	)
+	(hierarchical_label "Y1"
+		(shape input)
+		(at 21.59 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb8945ce-5a16-4eb7-b503-b21f1b9adc54")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "033d3f76-f98a-44c9-83c7-31f83badb0a4")
+		(property "Reference" "SW42"
+			(at 86.36 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 80.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6714faef-6ab9-4137-93b7-d0a3c2a0fca7")
+		)
+		(pin "2"
+			(uuid "f6eac4ed-1960-473c-9e30-ab5a35da2f9b")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 78.74 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05e7bbb4-ba3e-4c34-afc7-67538849d0f0")
+		(property "Reference" "D61"
+			(at 78.486 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 78.486 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45fe76d1-ec1f-4cb9-a3b7-e3959bcfebfc")
+		)
+		(pin "2"
+			(uuid "89e33619-d6df-4982-a6d5-980d321cee66")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0965c61a-dadb-437b-b764-1261b02f40af")
+		(property "Reference" "D52"
+			(at 91.186 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 91.186 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b32cdf7-65a6-4a45-9375-89c3db01fa87")
+		)
+		(pin "2"
+			(uuid "2d7d9ba2-89c5-4e2b-b882-bbedf3da5d1b")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 78.74 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15553a6a-ec8e-44dd-971e-013946e77f65")
+		(property "Reference" "D36"
+			(at 78.486 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 78.486 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df43f43a-085b-490e-8421-49d08f5bf37a")
+		)
+		(pin "2"
+			(uuid "5ec76b9a-9697-4627-a02d-e3ee385dadcb")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "161c08d3-d428-47fb-897d-ea10be9ceb34")
+		(property "Reference" "SW57"
+			(at 86.36 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c6752f-1d85-468e-9b05-71a2dadee954")
+		)
+		(pin "2"
+			(uuid "7f63ce71-94be-403a-8a7d-a990f46f7edb")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 66.04 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22b5f622-a9f9-490b-b4de-d836c158a554")
+		(property "Reference" "D55"
+			(at 65.786 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 65.786 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7e2b1ca-6d82-4350-af7c-e23c7c43e381")
+		)
+		(pin "2"
+			(uuid "fd03dd30-802f-4fc5-8087-c84c04665955")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 78.74 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23e709dd-d07c-4738-81ce-ee8b86678588")
+		(property "Reference" "D46"
+			(at 78.486 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 78.486 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa771320-a558-4a2e-a3ad-b379b72831b7")
+		)
+		(pin "2"
+			(uuid "e718ec72-edbb-4866-bdc7-83293e15016c")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 59.69 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "245a6de9-c179-4c47-9e43-06fc125f23cb")
+		(property "Reference" "SW55"
+			(at 60.96 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 54.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b963b8d7-9a8f-416d-a732-f0b95a883f62")
+		)
+		(pin "2"
+			(uuid "feceaf6e-5a73-4f92-ae2c-a98ad62409ad")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 53.34 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24a31bae-8633-4ac3-a588-fe1734da05c7")
+		(property "Reference" "D39"
+			(at 53.086 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 53.086 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5948c341-a3e3-42d3-a5b4-3b1553d3636f")
+		)
+		(pin "2"
+			(uuid "ba65c48e-7988-46d2-82ca-fa5367c993b1")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 78.74 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27203419-4d8b-46b3-80e0-c5825645666d")
+		(property "Reference" "D51"
+			(at 78.486 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 78.486 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6c91f27-0ada-4466-bf52-523cc83eabef")
+		)
+		(pin "2"
+			(uuid "dc47e971-497d-4b81-909f-5fb0180aa6d8")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 40.64 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28fc29d0-5dd4-4d8f-8ab3-ab923a3efe12")
+		(property "Reference" "D38"
+			(at 40.386 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 40.386 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2b90c1f-15c3-4aad-ad97-4e10b9ccace7")
+		)
+		(pin "2"
+			(uuid "39b36f22-ce0d-4570-a18f-41462d9afd87")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 40.64 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e386e24-0840-49f1-8123-0a1c5f304f4d")
+		(property "Reference" "D58"
+			(at 40.386 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 40.386 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbf7fd23-5b9c-447c-a102-e5efcb5e05a6")
+		)
+		(pin "2"
+			(uuid "4ea10e51-006e-4957-b400-bcb25af608cf")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ed96049-ac8b-4fe3-9e19-0d44023fc7b1")
+		(property "Reference" "D42"
+			(at 91.186 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 91.186 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82917649-0b08-4126-be81-52fc2ba1da3f")
+		)
+		(pin "2"
+			(uuid "1cc9401c-b209-4cb3-bdb8-03bd08f91aea")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 66.04 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3406b590-25ae-4435-b8d9-70079abaebfb")
+		(property "Reference" "D35"
+			(at 65.786 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 65.786 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6312f7ee-1942-445a-b067-ee9940897261")
+		)
+		(pin "2"
+			(uuid "41c82ee3-49cc-47b8-8eb6-2427ba82b22e")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 53.34 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37215bd1-7dff-4f6e-b01f-c7fb188d2fd5")
+		(property "Reference" "D34"
+			(at 53.086 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 53.086 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6d6274d-e471-4804-b22f-d40e07e3942b")
+		)
+		(pin "2"
+			(uuid "889a61bf-62ef-4cb7-8f66-2ca4e17deb43")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 34.29 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "377ea2cf-69f9-4e0e-925f-a7fe41ef62f7")
+		(property "Reference" "SW33"
+			(at 35.56 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18320c1e-b015-439a-a652-545289b90f42")
+		)
+		(pin "2"
+			(uuid "f01a63e1-30b3-4ec7-a876-41c1f9b22c59")
+		)
+		(instances
+			(project ""
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 46.99 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a1977db-dc3b-4818-a37c-fe359d63d0cf")
+		(property "Reference" "SW34"
+			(at 48.26 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.26 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 46.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68630b08-bfa7-4d2f-8bac-b0cf75e199eb")
+		)
+		(pin "2"
+			(uuid "eae6ad70-b076-4695-bea8-6117ccc88b80")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d8aeeb5-fed2-4589-8ed1-952ef5ef9538")
+		(property "Reference" "SW36"
+			(at 73.66 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8facf18d-f35a-41f5-a4c7-ff95c6393902")
+		)
+		(pin "2"
+			(uuid "0fb5deb2-c23a-43ce-8b67-e13039bc0871")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 34.29 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f9b805c-4dfa-4db3-a758-3899224cc2f3")
+		(property "Reference" "SW58"
+			(at 35.56 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b27d2edb-ea46-4607-b1c7-6864e6a9d473")
+		)
+		(pin "2"
+			(uuid "6fed24bf-d53e-41dc-85ed-a96ece313839")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 59.69 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "542e52b6-7284-43df-baf7-1b7e070b7163")
+		(property "Reference" "SW45"
+			(at 60.96 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "716cd882-dd63-4765-b6ca-a31c7d96b947")
+		)
+		(pin "2"
+			(uuid "d36b7c76-7e5a-414f-93bf-c62c499bb1bd")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 40.64 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56ee1598-fb0e-477d-bfda-5c366209de4e")
+		(property "Reference" "D43"
+			(at 40.386 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 40.386 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "346850d0-07f7-4350-9899-1765a7e4ecf1")
+		)
+		(pin "2"
+			(uuid "69d3e432-eacf-4774-a86d-b415d955a29a")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 53.34 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a64559a-a7d3-44fa-b582-a477ee42f0e5")
+		(property "Reference" "D54"
+			(at 53.086 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 53.086 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ecfecf-ad1e-4ff4-ab7a-126bca07c3c4")
+		)
+		(pin "2"
+			(uuid "e8a5956c-cb3f-4300-8613-3de9e672f96e")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 34.29 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66e3213f-caf2-4fe5-b4c8-73dc1e3f700c")
+		(property "Reference" "SW53"
+			(at 35.56 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5b02c06-3e2d-47cf-913c-dee7395f164b")
+		)
+		(pin "2"
+			(uuid "49911976-19ca-402f-80e8-e74757261d60")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 53.34 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b8b297d-2b75-40fc-837b-157d46fcc028")
+		(property "Reference" "D49"
+			(at 53.086 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 53.086 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "251d9717-bcfb-427e-b7e9-96d815e03819")
+		)
+		(pin "2"
+			(uuid "68273ab5-c5c0-4606-90b0-a88a0514c416")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cbdb77d-b1b5-4271-b037-5697b792bbff")
+		(property "Reference" "SW47"
+			(at 86.36 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "597b3504-8c9d-4b4d-80db-c48d57595ee6")
+		)
+		(pin "2"
+			(uuid "5bef03c9-5370-4d63-a270-088ac04f3d2c")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740b941e-f634-42ed-9b45-757bd85db315")
+		(property "Reference" "SW46"
+			(at 73.66 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d18261ce-b118-4cc0-8126-cd6148cdc776")
+		)
+		(pin "2"
+			(uuid "d9fd1635-1440-4db0-9ab2-e473bea1659f")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 59.69 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74e6fc93-469e-4bdb-bdc7-55614ad8143f")
+		(property "Reference" "SW35"
+			(at 60.96 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 54.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e2e46a-d99d-47fc-9197-c3507fc022e6")
+		)
+		(pin "2"
+			(uuid "73fef4ff-7a28-4dfc-bed6-146c187a80b6")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 78.74 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79fdffc1-7e58-401f-a675-1cf36fca3830")
+		(property "Reference" "D41"
+			(at 78.486 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 78.486 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "febe4b2a-9424-4c3e-9ad2-b611f2755e01")
+		)
+		(pin "2"
+			(uuid "675f93bb-4085-4071-96fc-00669a5b9b59")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 66.04 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83a8f4f2-7ec7-4e5f-b550-9b8353e65946")
+		(property "Reference" "D50"
+			(at 65.786 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 65.786 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fbdc4ed-a46c-48a3-ba2a-16b3184ff4f1")
+		)
+		(pin "2"
+			(uuid "70f7dd6d-e3b6-4eb2-84bd-7a5002d124d5")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 46.99 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "884a3015-0fbd-4a71-8eee-d61f656c78dd")
+		(property "Reference" "SW59"
+			(at 48.26 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.26 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 46.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d69b534a-4a00-45d1-bfa1-ff8a2e267e33")
+		)
+		(pin "2"
+			(uuid "eabc6e99-edb6-4d94-a4e9-94915325d42a")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 66.04 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9423b855-29b5-4a41-bf90-f18d2db75203")
+		(property "Reference" "D40"
+			(at 65.786 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 65.786 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98aa1b31-cc84-4c4c-ae80-9ae853833a76")
+		)
+		(pin "2"
+			(uuid "094f86f6-0a1c-444c-b2cb-4f22eb140082")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 34.29 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bc8e5ba-849c-4dfb-abba-3a63fa59b44a")
+		(property "Reference" "SW43"
+			(at 35.56 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 29.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74b5a26a-4609-461e-bffd-9564a760c0c3")
+		)
+		(pin "2"
+			(uuid "42e33173-ddbe-48c9-9a92-4ed48cd100fc")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 59.69 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c4b6079-6294-4938-97d4-58b7ce2f87ee")
+		(property "Reference" "SW40"
+			(at 60.96 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e20603f8-70be-43e0-be1e-b296a6a775e7")
+		)
+		(pin "2"
+			(uuid "e62268de-c0e3-4143-afe2-aa041baa8e4d")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 40.64 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3addc5a-fc7b-4a97-b363-e5c5eb5e73f4")
+		(property "Reference" "D33"
+			(at 40.386 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 40.386 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff566c13-e1e7-4793-8889-5b348ce33dd5")
+		)
+		(pin "2"
+			(uuid "997cf96e-a0d1-4d5f-89bc-56b72386ede8")
+		)
+		(instances
+			(project ""
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 46.99 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3bb5cf1-64c4-4fdc-9351-0e6a98e19ccb")
+		(property "Reference" "SW54"
+			(at 48.26 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.26 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 41.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 46.99 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3830d923-55c6-4431-b467-3deb1e784c3f")
+		)
+		(pin "2"
+			(uuid "a99d977a-445e-469b-befc-9e6f625761be")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 78.74 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6c5d65b-c60f-4670-a84d-23faaf909cdd")
+		(property "Reference" "D56"
+			(at 78.486 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 78.486 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74c338aa-be16-45b6-93e9-2083ca75b27c")
+		)
+		(pin "2"
+			(uuid "05be737c-4f7d-4f85-8ba9-87e5281697e9")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 40.64 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6f149ef-ce1a-4867-9959-22141d59bf14")
+		(property "Reference" "D48"
+			(at 40.386 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 40.386 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25961eac-694d-44e5-8335-dd0bd467ce6b")
+		)
+		(pin "2"
+			(uuid "7965e872-dfc7-482b-a176-224529e8eb92")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 59.69 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a743ebf2-1f0b-4b8d-a9c7-aff95e368df6")
+		(property "Reference" "SW50"
+			(at 60.96 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8832826-1153-4bdb-8f0e-b71e2705fba1")
+		)
+		(pin "2"
+			(uuid "4d0c3788-4364-4957-81c0-9b91090d6c49")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaaa815d-81cc-4958-a4b7-975a8e88ea7d")
+		(property "Reference" "D62"
+			(at 91.186 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 91.186 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3012f489-9e9f-4e0d-aa70-75ea5861b3af")
+		)
+		(pin "2"
+			(uuid "98ca8517-5340-4205-8454-65490c08d888")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad0020b3-2699-4f37-9240-82147dfb3df4")
+		(property "Reference" "SW51"
+			(at 73.66 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a568b103-9220-49b6-bcf3-846228fb9687")
+		)
+		(pin "2"
+			(uuid "f290c233-9fef-4796-8694-3e31956e8ac1")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 66.04 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae44ae9a-48cb-4301-84a4-9f57389340a3")
+		(property "Reference" "D45"
+			(at 65.786 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 65.786 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63fb5ca-d44a-4fb9-be82-7fcadda3dd47")
+		)
+		(pin "2"
+			(uuid "f6210d95-f4bd-435b-8fa8-300cff4f94bf")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 53.34 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aef20a85-a86d-4bc6-b106-cc4af09a3267")
+		(property "Reference" "D44"
+			(at 53.086 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 53.086 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4166cdb0-10d0-4b0c-ba02-5333bc339abb")
+		)
+		(pin "2"
+			(uuid "06b09dab-48ab-42e7-91d4-fcf55e8dcd95")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3495d21-3fa7-4fb3-adf7-7f64420aa7c6")
+		(property "Reference" "SW52"
+			(at 86.36 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b05007f-9539-44df-b8b2-aa31df770994")
+		)
+		(pin "2"
+			(uuid "2324ef33-60ee-4e8e-95e6-742294c32034")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b735ce9d-4f82-49e8-93fb-e32b5583a64b")
+		(property "Reference" "SW56"
+			(at 73.66 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 76.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "950351a7-c7a9-40f1-8101-fef658104bbd")
+		)
+		(pin "2"
+			(uuid "505b355d-0122-47ff-8f80-bbc2285ef157")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 34.29 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b996cf9d-cf38-4012-913d-df6442fb1da5")
+		(property "Reference" "SW48"
+			(at 35.56 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2731aae7-58d8-4bfc-a296-053880f09372")
+		)
+		(pin "2"
+			(uuid "d3a76787-ceb8-4d7d-ba2a-f455eaf96fb9")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 40.64 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbfcc173-be8f-4486-b561-560df75a3dbb")
+		(property "Reference" "D53"
+			(at 40.386 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 40.386 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba6dc70f-c12c-4099-bb1c-5adec2c169d6")
+		)
+		(pin "2"
+			(uuid "c846e0de-2932-4117-8c85-6dffdd1f3840")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 34.29 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcd109ce-eeb5-4634-8909-4a69929414ab")
+		(property "Reference" "SW38"
+			(at 35.56 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 35.56 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90af8577-441b-4315-8a0a-7d680b95f2b5")
+		)
+		(pin "2"
+			(uuid "f98a0d88-2fc5-4f27-844e-dc65059b2df5")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 46.99 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4d43506-dd10-4d2a-bc61-c50ed61c2a64")
+		(property "Reference" "SW49"
+			(at 48.26 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.26 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 46.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f040016-162e-4ebb-8b84-c4151f9fad93")
+		)
+		(pin "2"
+			(uuid "9cc41d9e-84fc-45c6-a184-fc66d64f229e")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7afcdcd-85b8-467b-8b32-0c8b722455e8")
+		(property "Reference" "D57"
+			(at 91.186 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 91.186 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7248647-beb9-4870-8514-6212fd86c326")
+		)
+		(pin "2"
+			(uuid "7392522d-15bd-41b7-baa9-fc3a8e816d09")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfa21b11-80fb-4408-a79f-772e5ad11500")
+		(property "Reference" "SW37"
+			(at 86.36 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 80.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3975e9f8-24a0-466f-a62c-7b21b81dd555")
+		)
+		(pin "2"
+			(uuid "af50028e-5015-4479-8d20-21cb376e7fde")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 66.04 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d06f64da-ec10-42ee-80ce-8a6e93cdf4e7")
+		(property "Reference" "D60"
+			(at 65.786 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 65.786 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "025e8e9b-3ea0-4fb9-ad8a-0d10e7e46bf6")
+		)
+		(pin "2"
+			(uuid "c0ee99ba-2bc4-453a-8007-74f039b89739")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1574a0f-1c38-4f65-99d6-78839bbaeaa3")
+		(property "Reference" "D37"
+			(at 91.186 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 91.186 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b04aeb49-9642-4d26-92c9-fd6cb5cd6b6f")
+		)
+		(pin "2"
+			(uuid "0ac3fb9b-3b4f-46b4-9b7a-bf5aecd8d719")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 53.34 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4f61667-dc19-4755-a47c-1868dd6253c2")
+		(property "Reference" "D59"
+			(at 53.086 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 53.086 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a74a1df8-bcf6-4a5b-ae5d-114aca160f1e")
+		)
+		(pin "2"
+			(uuid "9801f56c-f693-4e91-98b8-38873b9a4c1d")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 85.09 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9fcbe96-531a-4495-b140-1d93ba8c4ecd")
+		(property "Reference" "SW62"
+			(at 86.36 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 86.36 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 80.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 85.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e695b0-fa9c-4da7-88d9-fcdabb7889f2")
+		)
+		(pin "2"
+			(uuid "c2449a6e-8b2d-4db5-a1a6-c378bee4ae52")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 59.69 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e46511ef-7240-4ea1-9fd7-0db6ea618dca")
+		(property "Reference" "SW60"
+			(at 60.96 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1ee1562-c55c-4dfd-88bc-7c7180c4d43f")
+		)
+		(pin "2"
+			(uuid "612a4546-a736-4f9d-9419-631e438355e3")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 91.44 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e78d30e6-4ae0-44df-8e1e-e8531f654926")
+		(property "Reference" "D47"
+			(at 91.186 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 91.186 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c62f0a71-3d2a-410a-9698-3a8b74a6f5df")
+		)
+		(pin "2"
+			(uuid "37c0fa36-ef24-4a7b-92d3-e4e8c1962025")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 46.99 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eef280fb-c742-4e63-87e8-1d600b85eb7e")
+		(property "Reference" "SW39"
+			(at 48.26 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.26 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0570d468-4b78-4dcc-b825-ec4483bd29ea")
+		)
+		(pin "2"
+			(uuid "76d9db67-010d-47fd-a647-fc865d947df1")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 46.99 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f675f7f1-aec4-41d2-b204-b52e101918e4")
+		(property "Reference" "SW44"
+			(at 48.26 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 48.26 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 41.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5824ba13-fb6d-453d-a0f3-43cc9ecea6e7")
+		)
+		(pin "2"
+			(uuid "830326c5-1175-4aa2-bf68-e0d4e8ccc08b")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faeaad9b-1489-4fe6-8748-2a8d1bc90df0")
+		(property "Reference" "SW61"
+			(at 73.66 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2966cd81-f5bd-46a7-9426-3bfb9fe999dd")
+		)
+		(pin "2"
+			(uuid "1a8744b8-3621-42ef-be23-044b6668e441")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 72.39 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe6742cd-28f4-4a68-9e13-57e2e98aa9ef")
+		(property "Reference" "SW41"
+			(at 73.66 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 73.66 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyswitches.pretty-2.1:SW_PG1350"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 72.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d41e18da-3a64-4287-8849-45edf8715ccc")
+		)
+		(pin "2"
+			(uuid "7c17842c-e10a-42cd-8bbc-1771d1c105f8")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/73948d28-39e3-4e81-a1b8-46893ddbbd68"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

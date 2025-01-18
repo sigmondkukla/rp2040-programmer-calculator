@@ -1,0 +1,8010 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "59f1a748-785f-455c-bb62-ea473b138e8c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SamacSys_Parts:DMN3731U-7"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 14.732 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DMN3731U-7"
+				(at 14.732 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT96P240X110-3N"
+				(at 14.732 -78.41 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN3731U.pdf"
+				(at 14.732 -178.41 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET MOSFET BVDSS: 25V-30V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 14.732 -378.41 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-DMN3731U-7"
+				(at 14.732 -478.41 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN3731U-7?qs=EBDBlbfErPyEqvOCBrONHQ%3D%3D"
+				(at 14.732 -578.41 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 14.732 -678.41 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DMN3731U-7"
+				(at 14.732 -778.41 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DMN3731U-7_1_1"
+				(polyline
+					(pts
+						(xy -3.302 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -0.508 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -4.064) (xy 1.016 -3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -4.064) (xy 1.27 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 0.762 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -4.064) (xy 3.556 -3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -3.048) (xy 3.302 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -4.318) (xy 3.556 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.556) (xy -0.508 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -0.508) (xy 9.652 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.588) (xy 9.652 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 3.048) (xy 10.16 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 2.032) (xy 9.652 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 3.048) (xy 9.652 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.556) (xy 2.032 -4.064) (xy 2.032 -3.048) (xy 1.016 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -3.556) (xy 2.54 -4.064) (xy 2.54 -3.048) (xy 3.556 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.54) (xy 6.858 2.032) (xy 6.858 3.048) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 3.048) (xy 9.144 2.032) (xy 10.16 2.032) (xy 9.652 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 7.874 2.54)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -8.382 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 120.65 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02a5db2a-fdd4-4fcc-af9d-f6823560869b")
+	)
+	(junction
+		(at 133.35 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03dfb43f-3f51-4a79-8b76-34a8fa53c409")
+	)
+	(junction
+		(at 133.35 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e82d15-52f0-45fa-80eb-f407a2bd01b3")
+	)
+	(junction
+		(at 120.65 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "091d7b66-9835-4669-a2da-ce7921cae9e4")
+	)
+	(junction
+		(at 83.82 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "161ddad6-4439-42a0-afce-08a252a593b7")
+	)
+	(junction
+		(at 83.82 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30588348-c1fa-4e52-a3d5-1bae09046880")
+	)
+	(junction
+		(at 120.65 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "310fe201-9e11-4e5b-8ce3-421c2ee8a4ac")
+	)
+	(junction
+		(at 83.82 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d662ab8-6125-4559-880e-db5706eadb97")
+	)
+	(junction
+		(at 133.35 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4161a080-f37c-4153-81aa-9db160a81a31")
+	)
+	(junction
+		(at 170.18 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "448bc937-9858-4aa2-bf40-a9f1363b2358")
+	)
+	(junction
+		(at 133.35 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a31bcf9-835f-4219-9fc1-12fef6c1d430")
+	)
+	(junction
+		(at 133.35 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f4fcf25-20e6-4737-8998-568991dc2b39")
+	)
+	(junction
+		(at 120.65 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "549330dc-9c59-45f5-a67f-b567cbdc10cf")
+	)
+	(junction
+		(at 120.65 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56024398-9932-40ba-97a1-1d2e6195d02f")
+	)
+	(junction
+		(at 83.82 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5776c019-7584-4336-ba2f-bf580b0114d4")
+	)
+	(junction
+		(at 83.82 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "594d2ff1-c444-4f72-82b9-4c8964dcb01d")
+	)
+	(junction
+		(at 120.65 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d45bcc5-5851-42ff-9127-3afd46377403")
+	)
+	(junction
+		(at 170.18 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dce7d9d-4eb3-4b4b-a7f3-71f197a25b94")
+	)
+	(junction
+		(at 133.35 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e8e7324-75fc-4422-a60e-2420db9952b6")
+	)
+	(junction
+		(at 120.65 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65ee896c-4bf4-463c-9d99-abafcbb7d73d")
+	)
+	(junction
+		(at 83.82 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66db45c6-bebb-4382-8d02-5acde8be46de")
+	)
+	(junction
+		(at 170.18 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "698e9a5e-3340-4cf6-bf82-0533986b0b14")
+	)
+	(junction
+		(at 83.82 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cb4b16b-2142-43f4-aeba-f5337e763e29")
+	)
+	(junction
+		(at 120.65 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749d2780-9920-4192-8614-b1d205c6d52d")
+	)
+	(junction
+		(at 133.35 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75603822-fc63-42ee-ad25-e16627bce259")
+	)
+	(junction
+		(at 133.35 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "789c54bb-fb37-4201-b3b0-c85775bbec69")
+	)
+	(junction
+		(at 83.82 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d48d9ce-ddf3-4b9f-ae58-c5be54e875db")
+	)
+	(junction
+		(at 83.82 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ec58946-9948-4103-9316-dc65bd03fa3d")
+	)
+	(junction
+		(at 170.18 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c9b140-3cd1-4958-afa0-80d5e0518334")
+	)
+	(junction
+		(at 170.18 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86a78e0d-e07a-4785-a185-c7e9f435c701")
+	)
+	(junction
+		(at 36.83 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "883551be-ad8c-44e5-a4fa-77d40130228e")
+	)
+	(junction
+		(at 170.18 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "890485d1-d8a7-42e8-825f-7123f71e5fef")
+	)
+	(junction
+		(at 120.65 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d454001-c6da-4ea0-aeb7-d481ed9df876")
+	)
+	(junction
+		(at 120.65 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "941ab960-3603-4303-ab91-f34feebadbb7")
+	)
+	(junction
+		(at 83.82 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "971b5fbe-4ead-4cc6-9651-fe217c5cf564")
+	)
+	(junction
+		(at 120.65 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9924f5d8-7835-4fe5-8517-26c344d9eff8")
+	)
+	(junction
+		(at 133.35 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ba66d7d-f686-4d26-91ca-594811645acd")
+	)
+	(junction
+		(at 133.35 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a29a4c0c-160d-4980-8106-ecc03f6e10c8")
+	)
+	(junction
+		(at 133.35 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a419f4e8-5394-48f5-a14a-f7cd6c1fc3d7")
+	)
+	(junction
+		(at 83.82 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a97e8f70-76a2-4ae5-a118-b2f8020a7731")
+	)
+	(junction
+		(at 120.65 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa606639-d2b3-40c7-88d3-fbdb0001bed2")
+	)
+	(junction
+		(at 38.608 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7bf1e4b-0dd1-4f91-a3b4-dee5c8e797b7")
+	)
+	(junction
+		(at 133.35 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b98bab0b-88f5-43a2-bf29-b88f30e3e1d2")
+	)
+	(junction
+		(at 120.65 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bad4385b-dbb6-4790-96c2-c0080096eafc")
+	)
+	(junction
+		(at 170.18 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec3658a-2d19-4a20-8052-d08be7623361")
+	)
+	(junction
+		(at 170.18 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf0eee41-e979-4ee9-8302-f4d9f8a9fe9e")
+	)
+	(junction
+		(at 83.82 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c06136be-f0b5-452b-bf00-b92c582d0314")
+	)
+	(junction
+		(at 170.18 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c20e3528-8c1c-4481-afd0-9bfcf275d15c")
+	)
+	(junction
+		(at 170.18 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8039523-fe18-4444-bc09-b789c4d1575a")
+	)
+	(junction
+		(at 133.35 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce06db52-7f27-4d8f-9721-2e68ea196f3c")
+	)
+	(junction
+		(at 170.18 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d05726c9-12ab-4a37-bbad-af92d5269f4e")
+	)
+	(junction
+		(at 170.18 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4d6f351-307e-4d02-b2c8-f47e9134dea1")
+	)
+	(junction
+		(at 83.82 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d56e4643-19f0-415b-aeec-2e3efc07f9f0")
+	)
+	(junction
+		(at 170.18 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6b00151-4475-4d1c-b49e-51bcc269b589")
+	)
+	(junction
+		(at 83.82 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de4116ba-1f60-4a75-a744-e4bb980df670")
+	)
+	(junction
+		(at 83.82 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9660779-ce37-4e2b-9c92-f6ccacaef8f1")
+	)
+	(junction
+		(at 170.18 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb76e653-a762-48c1-b0bc-698c4214a11e")
+	)
+	(junction
+		(at 133.35 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f973defa-5b46-4dda-a295-493dfe90cf74")
+	)
+	(junction
+		(at 120.65 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa18de30-8fff-4ef5-91ad-bad81005ae95")
+	)
+	(wire
+		(pts
+			(xy 140.97 106.68) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0036c1eb-c97a-4212-ba1a-bd43c613075d")
+	)
+	(wire
+		(pts
+			(xy 133.35 119.38) (xy 133.35 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0059c347-a850-4e7a-bb00-44f2320b4fbe")
+	)
+	(wire
+		(pts
+			(xy 120.65 119.38) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ac9866-90f4-4966-95de-1351bf7abaa2")
+	)
+	(wire
+		(pts
+			(xy 59.69 53.34) (xy 59.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e9d3a0-76dc-4545-bc06-0cdc6c40d83f")
+	)
+	(wire
+		(pts
+			(xy 113.03 132.08) (xy 120.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0693153f-c9a5-4742-aa09-ce2ef828850e")
+	)
+	(wire
+		(pts
+			(xy 154.94 144.78) (xy 148.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d5f240-ec70-4aca-8c0e-77fefb211d2d")
+	)
+	(wire
+		(pts
+			(xy 154.94 132.08) (xy 148.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07e919ae-23a1-4b20-9b9a-f85b071475cc")
+	)
+	(wire
+		(pts
+			(xy 113.03 93.98) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3082cc-5ba0-40e6-8f09-f090219baa70")
+	)
+	(wire
+		(pts
+			(xy 133.35 163.83) (xy 133.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a8eff3d-50e1-4a19-b606-ad50eff017bc")
+	)
+	(wire
+		(pts
+			(xy 162.56 100.33) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0e5b27-0cbe-4ef6-a3a8-dc47b985493e")
+	)
+	(wire
+		(pts
+			(xy 113.03 151.13) (xy 120.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfbfb13-2932-4333-b82e-f19e74e484dc")
+	)
+	(wire
+		(pts
+			(xy 91.44 113.03) (xy 83.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f06d670-2017-4efe-b9bd-c0387c2acb0c")
+	)
+	(wire
+		(pts
+			(xy 133.35 132.08) (xy 133.35 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c67983-8a69-4e52-aab9-c188c4868627")
+	)
+	(wire
+		(pts
+			(xy 162.56 176.53) (xy 170.18 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12cb282a-dd73-49e9-a559-9db58c792c19")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e40577-f995-4947-8d70-359e5bce6638")
+	)
+	(wire
+		(pts
+			(xy 154.94 163.83) (xy 148.59 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177495a0-001d-4ab8-a599-1fb616b5a982")
+	)
+	(wire
+		(pts
+			(xy 120.65 132.08) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187422a9-6ae8-4126-a303-2d023cd055ad")
+	)
+	(wire
+		(pts
+			(xy 162.56 182.88) (xy 170.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be18546-f77f-4ea5-a017-511e405e68fa")
+	)
+	(wire
+		(pts
+			(xy 170.18 138.43) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bffcfd1-238f-43f3-919c-18b6faca7568")
+	)
+	(wire
+		(pts
+			(xy 154.94 157.48) (xy 148.59 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c87e71b-28d2-439a-a769-120320dd3d9b")
+	)
+	(wire
+		(pts
+			(xy 170.18 151.13) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ebf7a3-4081-473d-bf9a-2e60296aa1a7")
+	)
+	(wire
+		(pts
+			(xy 133.35 144.78) (xy 133.35 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f73688-290c-455c-ad29-7486c9b88bb2")
+	)
+	(wire
+		(pts
+			(xy 170.18 170.18) (xy 170.18 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248687b4-603f-4737-81f9-532eb3c060bd")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2532fe0b-93aa-4d53-b001-aba09a147105")
+	)
+	(wire
+		(pts
+			(xy 162.56 151.13) (xy 170.18 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a023b2-b087-4e24-82ea-4645b785c901")
+	)
+	(wire
+		(pts
+			(xy 83.82 93.98) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f09d0f-48b7-4317-8507-267e5222315c")
+	)
+	(wire
+		(pts
+			(xy 154.94 125.73) (xy 148.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d079e0c-ea8c-4ecb-8c7a-7bc0897878d5")
+	)
+	(wire
+		(pts
+			(xy 140.97 144.78) (xy 133.35 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32663d5d-f998-4999-a1e4-438e3306dd5e")
+	)
+	(wire
+		(pts
+			(xy 120.65 170.18) (xy 120.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b7ac18-87ce-4530-934f-9fb3bc8d8a03")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340fe065-2ad9-418a-b799-771b70a50f6f")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 99.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36de1db4-0b9d-40fc-93ca-bd78df168c3a")
+	)
+	(wire
+		(pts
+			(xy 91.44 151.13) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e035d1-35d8-43c0-a087-c45ac20346f8")
+	)
+	(wire
+		(pts
+			(xy 83.82 113.03) (xy 83.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3938715b-adc0-4df9-936e-120df2f7bc7f")
+	)
+	(wire
+		(pts
+			(xy 170.18 106.68) (xy 170.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b1df91c-b67b-43a7-9c3c-26331046f3e1")
+	)
+	(wire
+		(pts
+			(xy 120.65 144.78) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccdabad-bd25-4081-86c2-99c7ac0ffad1")
+	)
+	(wire
+		(pts
+			(xy 133.35 182.88) (xy 140.97 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1025f1-3b29-4420-bb2f-eaa8edad3252")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 99.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4013061b-4d9b-4cb5-b665-1b2b5906f41a")
+	)
+	(wire
+		(pts
+			(xy 170.18 163.83) (xy 170.18 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40eec009-419c-460f-b0b8-3f07613e7f9f")
+	)
+	(wire
+		(pts
+			(xy 83.82 151.13) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45040082-90d6-42f3-9c0d-f9479420a8cd")
+	)
+	(wire
+		(pts
+			(xy 154.94 100.33) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45136c9d-ab4e-40b6-a3dc-82e9ff171415")
+	)
+	(wire
+		(pts
+			(xy 140.97 113.03) (xy 133.35 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461b8d8e-b598-4fff-bad9-ad50b3eb9658")
+	)
+	(wire
+		(pts
+			(xy 35.56 48.26) (xy 36.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "491cf749-2bea-401b-8b57-4c76af0cf5bc")
+	)
+	(wire
+		(pts
+			(xy 170.18 144.78) (xy 170.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2aac6b-77fd-445f-9b09-31485d11fd22")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 170.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd056df-0896-426d-865e-30d555e08103")
+	)
+	(wire
+		(pts
+			(xy 83.82 100.33) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1bb5a8-1156-4136-86e9-2576894a84ff")
+	)
+	(wire
+		(pts
+			(xy 154.94 106.68) (xy 148.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c2a3302-aa1c-4965-9b51-a987a326d419")
+	)
+	(wire
+		(pts
+			(xy 105.41 106.68) (xy 99.06 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf854f2-fd2e-40c3-b8fa-ab8bec166db6")
+	)
+	(wire
+		(pts
+			(xy 113.03 144.78) (xy 120.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f916e37-4993-4a11-8e66-48d300ac29b4")
+	)
+	(wire
+		(pts
+			(xy 154.94 151.13) (xy 148.59 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58449244-3c99-4373-9faa-bd6fcbd96442")
+	)
+	(wire
+		(pts
+			(xy 120.65 106.68) (xy 120.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b891cf-cf65-47e1-9b41-bbfbba47fdf3")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 120.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5960b6fb-5f5d-49e3-8edb-843ac0aa65f3")
+	)
+	(wire
+		(pts
+			(xy 162.56 163.83) (xy 170.18 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5509e5-6197-43fc-afce-eb83f8ad368e")
+	)
+	(wire
+		(pts
+			(xy 83.82 163.83) (xy 83.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aaf2539-dbcd-41a7-8ee9-cdf43060411a")
+	)
+	(wire
+		(pts
+			(xy 113.03 182.88) (xy 120.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae16878-c021-4871-bab4-4eaf19f4c3f1")
+	)
+	(wire
+		(pts
+			(xy 133.35 176.53) (xy 133.35 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f34f97b-0531-4aff-88ad-84169e025c4a")
+	)
+	(wire
+		(pts
+			(xy 120.65 151.13) (xy 120.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "618f8189-487c-4956-b5d0-e742bd34769d")
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 120.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ca0d15-a18d-477a-8810-ec9bb33d0cca")
+	)
+	(wire
+		(pts
+			(xy 162.56 113.03) (xy 170.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64409425-7c49-4226-89f8-f59cc0a2fc26")
+	)
+	(wire
+		(pts
+			(xy 71.12 87.63) (xy 83.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686b059c-e1c5-4266-9800-dc7e7d90ff11")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b8e262-0c05-4620-8b45-16cf9a031d13")
+	)
+	(wire
+		(pts
+			(xy 140.97 157.48) (xy 133.35 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ffacc9-92fd-48b6-8f5b-b466f42f2037")
+	)
+	(wire
+		(pts
+			(xy 91.44 157.48) (xy 83.82 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a73549c-4af8-46ca-98c9-f7a35f93ef9e")
+	)
+	(wire
+		(pts
+			(xy 83.82 113.03) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2f632f-ba1c-418f-9f1b-8a440acd6ad5")
+	)
+	(wire
+		(pts
+			(xy 105.41 132.08) (xy 99.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b77335a-0a76-4715-b0c5-9bcb5941012d")
+	)
+	(wire
+		(pts
+			(xy 120.65 182.88) (xy 120.65 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7096a468-fe54-490b-a1a3-be4af79d051c")
+	)
+	(wire
+		(pts
+			(xy 170.18 125.73) (xy 170.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d1061b-72d4-446e-a04a-0db0bf338b55")
+	)
+	(wire
+		(pts
+			(xy 154.94 170.18) (xy 148.59 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ddaf3d-f0c5-41d9-9be9-f0d312ae8b05")
+	)
+	(wire
+		(pts
+			(xy 91.44 176.53) (xy 83.82 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710d3419-dfc9-4ed2-a78f-724565fda396")
+	)
+	(wire
+		(pts
+			(xy 133.35 132.08) (xy 140.97 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716cd156-3cc2-4512-aac6-ca5cc70f3381")
+	)
+	(wire
+		(pts
+			(xy 105.41 125.73) (xy 99.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d65303-35c4-4db5-ae78-0a8e28fec2a6")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 36.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a47e660-9cc9-4446-86bd-175bec2a2a39")
+	)
+	(wire
+		(pts
+			(xy 105.41 163.83) (xy 99.06 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5e1543-ff1b-4841-907b-6a4ea59a9efb")
+	)
+	(wire
+		(pts
+			(xy 105.41 151.13) (xy 99.06 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dceb074-a472-4667-9ae2-e99db60c02d7")
+	)
+	(wire
+		(pts
+			(xy 133.35 170.18) (xy 133.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821f337d-928b-4519-95ac-7cd3783645db")
+	)
+	(wire
+		(pts
+			(xy 170.18 100.33) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83018529-f48e-4d9b-83b6-63f0b428ad94")
+	)
+	(wire
+		(pts
+			(xy 105.41 144.78) (xy 99.06 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a3285f-28f7-4702-bab8-e96a843cfa4e")
+	)
+	(wire
+		(pts
+			(xy 105.41 157.48) (xy 99.06 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c0054e-8790-4fe5-95d3-338ae8e8d999")
+	)
+	(wire
+		(pts
+			(xy 162.56 119.38) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de3ebef-d9e4-4c9f-a73a-200b145829a8")
+	)
+	(wire
+		(pts
+			(xy 120.65 176.53) (xy 120.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90af4f72-d8cd-4d35-b946-be8e29ee687b")
+	)
+	(wire
+		(pts
+			(xy 113.03 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f23afc-3b7c-46e7-913c-ada9e4a1abe9")
+	)
+	(wire
+		(pts
+			(xy 105.41 138.43) (xy 99.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91aa524d-d0ec-4581-9c4b-e1e39e9e9ef3")
+	)
+	(wire
+		(pts
+			(xy 170.18 119.38) (xy 170.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b5d6fd-5f49-46ab-8ed1-3152db13e9e6")
+	)
+	(wire
+		(pts
+			(xy 113.03 170.18) (xy 120.65 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9537bc8f-a673-4ea3-9362-464aaaa27b9d")
+	)
+	(wire
+		(pts
+			(xy 162.56 125.73) (xy 170.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96be0c42-748c-4014-8238-254a4b98d07c")
+	)
+	(wire
+		(pts
+			(xy 91.44 170.18) (xy 83.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9754a4b0-0f94-4207-a173-5b8da476702f")
+	)
+	(wire
+		(pts
+			(xy 154.94 113.03) (xy 148.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996576a6-1317-4b4e-8e46-cc70cda6c3af")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998701cf-707a-4ff3-b5bc-5a6628abb500")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9993bf67-b4df-4251-a650-927c08ec674e")
+	)
+	(wire
+		(pts
+			(xy 120.65 106.68) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc089f0-08ea-4d08-b32f-b3121d2e0ede")
+	)
+	(wire
+		(pts
+			(xy 36.83 57.15) (xy 36.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c2123d0-e7a6-4c4f-a04a-efb71dda4faa")
+	)
+	(wire
+		(pts
+			(xy 91.44 138.43) (xy 83.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f60312d-ae13-45b1-8c98-f9920b0b52fc")
+	)
+	(wire
+		(pts
+			(xy 105.41 176.53) (xy 99.06 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f93076b-a71d-4599-b2e0-bd9aea163153")
+	)
+	(wire
+		(pts
+			(xy 113.03 113.03) (xy 120.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a031d249-9686-448f-a7ce-e0fd226dddb9")
+	)
+	(wire
+		(pts
+			(xy 105.41 182.88) (xy 99.06 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f7b27d-a289-4631-8a39-cf31d2e45094")
+	)
+	(wire
+		(pts
+			(xy 140.97 151.13) (xy 133.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36f6408-a15a-4573-9a16-2b16d5d4b800")
+	)
+	(wire
+		(pts
+			(xy 154.94 138.43) (xy 148.59 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e08884-bb87-4dbf-b956-0e95384684b2")
+	)
+	(wire
+		(pts
+			(xy 113.03 157.48) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5989f07-b251-48ea-acd8-9f7901927efe")
+	)
+	(wire
+		(pts
+			(xy 133.35 151.13) (xy 133.35 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9622ecd-3922-4081-b18b-fbdb4c9d3f73")
+	)
+	(wire
+		(pts
+			(xy 83.82 132.08) (xy 83.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecc2066-dbac-45ec-8199-27f920342692")
+	)
+	(wire
+		(pts
+			(xy 133.35 163.83) (xy 133.35 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe8d9c6-5994-4979-964b-775fe4cfc171")
+	)
+	(wire
+		(pts
+			(xy 162.56 144.78) (xy 170.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f82196-2928-48c0-8465-d10204d10271")
+	)
+	(wire
+		(pts
+			(xy 162.56 170.18) (xy 170.18 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b724d3fe-2937-44ee-84c7-759b19e50ba1")
+	)
+	(wire
+		(pts
+			(xy 120.65 113.03) (xy 120.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7327799-1377-413c-ab10-5d7d93a61ee8")
+	)
+	(wire
+		(pts
+			(xy 83.82 163.83) (xy 83.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86f7731-a4f1-4ffe-9b0d-9611d3df6100")
+	)
+	(wire
+		(pts
+			(xy 83.82 125.73) (xy 83.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96120cb-1d32-47d9-ab41-15e4a789c008")
+	)
+	(wire
+		(pts
+			(xy 170.18 182.88) (xy 170.18 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb97eafb-d266-45bc-9dc3-15ed764c4e0c")
+	)
+	(wire
+		(pts
+			(xy 83.82 87.63) (xy 133.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe03618-2bc5-4fef-adea-938e192f7ad5")
+	)
+	(wire
+		(pts
+			(xy 83.82 176.53) (xy 83.82 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcebf0ae-124a-497e-b220-36fb3f1fbe7c")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf29af8-582c-4581-90df-058b5c4abb0d")
+	)
+	(wire
+		(pts
+			(xy 105.41 170.18) (xy 99.06 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf91ca85-52f6-4a1a-927d-e46affb69bd9")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d97c35-7aa7-49b6-b80b-ecd5d9e8d301")
+	)
+	(wire
+		(pts
+			(xy 162.56 132.08) (xy 170.18 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c14718-2fe8-4dc5-83fb-5385a71274a0")
+	)
+	(wire
+		(pts
+			(xy 83.82 119.38) (xy 83.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c480a6d3-9929-4a56-8573-edb5b76257ff")
+	)
+	(wire
+		(pts
+			(xy 120.65 157.48) (xy 120.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4cefacf-7ed8-45a8-aec3-7da406fc9bfe")
+	)
+	(wire
+		(pts
+			(xy 83.82 182.88) (xy 91.44 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b33bcf-8026-4546-b7ac-71298db3b575")
+	)
+	(wire
+		(pts
+			(xy 170.18 157.48) (xy 170.18 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96e065e-6cc7-48b0-bd1e-0eae22b78e3a")
+	)
+	(wire
+		(pts
+			(xy 133.35 113.03) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ecb2a6-cfb1-405b-852d-33241b74750e")
+	)
+	(wire
+		(pts
+			(xy 170.18 157.48) (xy 170.18 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca674e3b-a86d-41c7-83f7-5ef67b0c9b50")
+	)
+	(wire
+		(pts
+			(xy 170.18 132.08) (xy 170.18 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc8c5f6-7397-4388-bb62-e2e711ed0942")
+	)
+	(wire
+		(pts
+			(xy 133.35 157.48) (xy 133.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfd968b-a219-411d-9e55-b3163a8e7a89")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 38.608 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2f0429-23b1-4ec2-bdd0-a3b0cae80b78")
+	)
+	(wire
+		(pts
+			(xy 170.18 106.68) (xy 170.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfeca694-6386-48c5-9328-0b6cdd41fac1")
+	)
+	(wire
+		(pts
+			(xy 83.82 157.48) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06da977-1802-4e9a-b0b9-a17224476164")
+	)
+	(wire
+		(pts
+			(xy 83.82 170.18) (xy 83.82 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e611a4-e485-478f-9142-c269ebd717ed")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 133.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1700f0f-cccc-4813-8528-bbeec7d42a13")
+	)
+	(wire
+		(pts
+			(xy 162.56 157.48) (xy 170.18 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c5e079-7ce1-45e2-b7c5-bd49991ddcbc")
+	)
+	(wire
+		(pts
+			(xy 140.97 125.73) (xy 133.35 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2dba185-d879-4bd8-9142-8f570996aaa4")
+	)
+	(wire
+		(pts
+			(xy 133.35 106.68) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ad8df1-325e-4cad-8980-b2ab57867f71")
+	)
+	(wire
+		(pts
+			(xy 133.35 125.73) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45faec3-1158-40c9-b2ec-0c412ead5772")
+	)
+	(wire
+		(pts
+			(xy 105.41 119.38) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77c89bf-35e5-4a31-811c-a09f08ed6c55")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 99.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88af68f-f6bf-4e65-824d-73c3c665edf4")
+	)
+	(wire
+		(pts
+			(xy 140.97 170.18) (xy 133.35 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a91511-1d93-46f7-994a-6a85856a9a25")
+	)
+	(wire
+		(pts
+			(xy 154.94 182.88) (xy 148.59 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e783908a-8444-4aa1-b2c2-5b07dd6a94df")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 120.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a5ce3b-8ffb-4284-aca1-a891651887f8")
+	)
+	(wire
+		(pts
+			(xy 91.44 125.73) (xy 83.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85bfe55-6a58-4190-a98a-543ddc61a64d")
+	)
+	(wire
+		(pts
+			(xy 133.35 100.33) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9199adb-23b2-4680-a0c7-533af5bc7de3")
+	)
+	(wire
+		(pts
+			(xy 154.94 176.53) (xy 148.59 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9996d0b-05df-4528-88e7-6051d3b88561")
+	)
+	(wire
+		(pts
+			(xy 140.97 119.38) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e38898-e20f-4b28-b1e1-6cc6086c85d9")
+	)
+	(wire
+		(pts
+			(xy 113.03 176.53) (xy 120.65 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea19ee03-43de-4259-92f0-a37578cb2b58")
+	)
+	(wire
+		(pts
+			(xy 120.65 157.48) (xy 120.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea43ea72-d3cd-41f6-adb7-0fcf0c9f5b28")
+	)
+	(wire
+		(pts
+			(xy 170.18 176.53) (xy 170.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4cb9e7-9f87-4289-b577-29eac1f6128f")
+	)
+	(wire
+		(pts
+			(xy 140.97 163.83) (xy 133.35 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1425f7-c357-437c-82ec-825d9293d08a")
+	)
+	(wire
+		(pts
+			(xy 133.35 113.03) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee31dac4-8456-4346-8990-704dbc05467c")
+	)
+	(wire
+		(pts
+			(xy 83.82 132.08) (xy 91.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef49f741-fb53-4ebd-b950-44eed8948f9c")
+	)
+	(wire
+		(pts
+			(xy 120.65 100.33) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c388f5-0094-4915-9780-2da59b3125ef")
+	)
+	(wire
+		(pts
+			(xy 38.608 48.26) (xy 39.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f160f259-bd04-4fa4-bb13-73b04cade73e")
+	)
+	(wire
+		(pts
+			(xy 120.65 138.43) (xy 113.03 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f294c098-9636-45e1-8fd1-7fa9f1bdae26")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 83.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f304c07f-54c0-4602-900b-cdcc77c6d284")
+	)
+	(wire
+		(pts
+			(xy 113.03 125.73) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f397c72f-6938-4eac-8b6f-46b02cc1dfe4")
+	)
+	(wire
+		(pts
+			(xy 154.94 119.38) (xy 148.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6697577-911a-4156-b8e2-b46454272154")
+	)
+	(wire
+		(pts
+			(xy 91.44 144.78) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f3aea1-8326-4177-a9a8-34a129ecdf81")
+	)
+	(wire
+		(pts
+			(xy 91.44 119.38) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73e63aa-3c92-4983-b829-e3017cf9988d")
+	)
+	(wire
+		(pts
+			(xy 113.03 163.83) (xy 120.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74a7bda-863e-4bda-a1d7-7631f741f4ae")
+	)
+	(wire
+		(pts
+			(xy 140.97 100.33) (xy 133.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f878ace7-89c5-4db2-8a0b-603b319ed040")
+	)
+	(wire
+		(pts
+			(xy 140.97 176.53) (xy 133.35 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90c16c6-3039-4c3c-ba82-3b007a28f3eb")
+	)
+	(wire
+		(pts
+			(xy 83.82 144.78) (xy 83.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb44eccd-cd55-4420-92fd-92f38c14611c")
+	)
+	(wire
+		(pts
+			(xy 91.44 163.83) (xy 83.82 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9b6285-852e-4018-9182-bae7e35236e9")
+	)
+	(wire
+		(pts
+			(xy 140.97 138.43) (xy 133.35 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc933f21-ae5e-425f-96a0-755bf08cf566")
+	)
+	(wire
+		(pts
+			(xy 120.65 163.83) (xy 120.65 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe624c05-1af6-4ad4-b2e9-3a523196d149")
+	)
+	(label "LEDA"
+		(at 71.12 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1dc1378-0840-47de-923e-7f2d4a9ea684")
+	)
+	(label "LEDA"
+		(at 59.69 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc42934b-2ae7-46a1-8a20-39370c662778")
+	)
+	(hierarchical_label "LED_PWM"
+		(shape input)
+		(at 35.56 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1cd87776-3408-4322-8851-537e36465903")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0084635c-3217-4196-ba06-a7e37f0dcaef")
+		(property "Reference" "R54"
+			(at 109.22 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53881239-d346-48a1-a06b-05207a59ff80")
+		)
+		(pin "1"
+			(uuid "27c900a3-d60a-4f7c-b2b8-b5b296a5d5e8")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02a04871-3c9d-4eab-b0c3-e496abeacbcd")
+		(property "Reference" "D77"
+			(at 95.25 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58c81376-54fe-4cc8-b204-89f34bbd1b2e")
+		)
+		(pin "2"
+			(uuid "9e51767d-943b-4c00-9ba3-c9baae8d5615")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02d827c2-9f53-4ea8-9610-9de577a51270")
+		(property "Reference" "D89"
+			(at 95.25 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa4bc161-4f65-4c00-a207-65ceba2b375a")
+		)
+		(pin "2"
+			(uuid "8b96aa83-1b16-49a5-96b7-8c112a134874")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07c3ca9b-8205-4e12-a000-5fcc508e3945")
+		(property "Reference" "D91"
+			(at 95.25 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52f51386-e2ce-48a5-b084-86de5d3c4857")
+		)
+		(pin "2"
+			(uuid "07e17763-40ef-4040-80e7-64be90610817")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09a667a3-d1e3-4a29-9a1b-5d4d5582b7cd")
+		(property "Reference" "R64"
+			(at 109.22 160.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 165.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b60df73-bcdd-482c-aade-aa6eb92d4879")
+		)
+		(pin "1"
+			(uuid "13298b95-3cc3-418a-8b3c-523165b22cd6")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f9bb678-567a-45a2-8576-b7db226d51e7")
+		(property "Reference" "R66"
+			(at 109.22 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c6f66e9-2b48-45bf-a348-9c74c329d16a")
+		)
+		(pin "1"
+			(uuid "53783100-7691-4809-952b-67540f1d008d")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "146e5a3f-a758-4fca-a09b-2b0410e29405")
+		(property "Reference" "R59"
+			(at 158.75 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f62ad0c-4885-47cf-a733-f6a9e70f354e")
+		)
+		(pin "1"
+			(uuid "d2002131-43d8-4da4-94fe-319176c93017")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ddf0b0e-fc10-4413-acc8-8f66b45ee445")
+		(property "Reference" "#PWR082"
+			(at 170.18 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a97fd691-3a48-438a-a0a4-fca75a88d77d")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f916ccc-634a-4dd1-b5df-129b82327f76")
+		(property "Reference" "R56"
+			(at 109.22 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7e523e2-aabd-469b-ae89-fd009be4112e")
+		)
+		(pin "1"
+			(uuid "76ccbce0-4dac-4dc3-92f8-67094074820f")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21d52b20-bdf4-47fb-ad0c-198bd9d435ac")
+		(property "Reference" "R47"
+			(at 158.75 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c3a6895-ab4d-4bce-a29a-41db502159ea")
+		)
+		(pin "1"
+			(uuid "39f9dd4b-0595-404b-ab93-46f3ab251765")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276e3b4b-6a40-4ffc-826d-fcc8a1a3159f")
+		(property "Reference" "#PWR080"
+			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e583938a-c621-4a64-ba9d-88020b90f467")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2efd1c62-e3a0-436c-836b-1cf755d7d8b3")
+		(property "Reference" "D71"
+			(at 95.25 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e446742-828a-48a1-a369-5b4c68ec0a98")
+		)
+		(pin "2"
+			(uuid "8496d23c-585b-4e26-99cc-dfd6359eb56f")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "397de36f-702b-4be8-9825-6f952b99c52e")
+		(property "Reference" "D74"
+			(at 144.78 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35b25aca-d4fe-47ba-8da1-bb13b46b7e5e")
+		)
+		(pin "2"
+			(uuid "f769ee37-0fc7-4eec-b284-5f080675d656")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45226da0-2d48-4ac3-8255-654a0ab555d4")
+		(property "Reference" "D83"
+			(at 95.25 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45685b0e-b247-4fa7-a07b-52bb73c49370")
+		)
+		(pin "2"
+			(uuid "1accd257-ff94-4977-86d9-0b100c04d254")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "457997ad-c2c2-42a5-a981-d59eca1e4288")
+		(property "Reference" "D92"
+			(at 144.78 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f2d9280-e027-4031-ac2a-ac3970c9a37a")
+		)
+		(pin "2"
+			(uuid "663c895e-9370-4d65-acc6-5c35479a7c28")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "471623ab-0983-45d3-bbf1-ca027e19d987")
+		(property "Reference" "R53"
+			(at 158.75 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d364479d-c1e7-4f28-aa46-add44b1d9c02")
+		)
+		(pin "1"
+			(uuid "f5777dd5-9ec6-4d24-823d-449490727ccf")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "471f44b8-cd59-4d1c-87fb-4ca5d406f820")
+		(property "Reference" "R69"
+			(at 158.75 172.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 174.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d4e8980c-e672-4a2a-87fe-e0b1ef104b5f")
+		)
+		(pin "1"
+			(uuid "248bfcdf-827f-4810-9f97-60d32e59d16f")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47548608-1e59-4f90-8aa1-52851f71c4fb")
+		(property "Reference" "R57"
+			(at 158.75 134.874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "36f78136-7036-4611-a764-26cd9af9d2b6")
+		)
+		(pin "1"
+			(uuid "1910dca4-35f1-4e53-819e-8e83b34bcd8c")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "478c7734-fb2f-4cfe-97a9-e233ad12feef")
+		(property "Reference" "R70"
+			(at 109.22 179.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 181.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 184.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53f8c575-12e6-49a2-8f39-c4fbd30cdb10")
+		)
+		(pin "1"
+			(uuid "c6c7e1a7-322c-4489-8fb1-c6b974efa454")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fc3a394-5414-4242-b33c-243eec8a0b9b")
+		(property "Reference" "R45"
+			(at 158.75 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bec39db-c4cc-4103-83f0-b4ab7b50f0b5")
+		)
+		(pin "1"
+			(uuid "84ffe6d3-8781-42d7-9c18-b64d89abcc41")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52e769c6-45e4-4490-b6bd-fcc0c710d7cd")
+		(property "Reference" "D72"
+			(at 144.78 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfdcc571-a307-4cb8-9a18-caf661a6610c")
+		)
+		(pin "2"
+			(uuid "44143f2d-873c-4515-82fe-aad02330f07a")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "660672c8-c820-4484-819c-cedbb83fe150")
+		(property "Reference" "R63"
+			(at 158.75 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "046485b3-987c-4ba5-a848-8b62212a43be")
+		)
+		(pin "1"
+			(uuid "fb55864f-c0c7-4ea2-bb6e-fd6d6799e98e")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67dd8a88-2f40-4241-8e6a-f1a9e00d3307")
+		(property "Reference" "D64"
+			(at 144.78 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aba1515c-043c-46d3-9694-16c7462d501e")
+		)
+		(pin "2"
+			(uuid "2eb7f34b-0063-4513-940a-72d34de10f98")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 59.69 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "681968d3-a623-4408-972f-c862e8d420b9")
+		(property "Reference" "#PWR079"
+			(at 59.69 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b5841b3-a225-495d-8c5b-1d713fac1baf")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 125.73 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72e6c4a7-9b2f-4e8a-8a6c-a0fc0055922c")
+		(property "Reference" "R52"
+			(at 109.22 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50f2c6b2-7cdc-47fb-8ed2-5f9df3244eaa")
+		)
+		(pin "1"
+			(uuid "dce491a3-f136-4d32-9a75-713493101115")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7420fc5d-7c6f-4def-83c4-3df0c1489c93")
+		(property "Reference" "D65"
+			(at 95.25 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b371d38f-d6e5-4678-ba1f-1a9a30882e22")
+		)
+		(pin "2"
+			(uuid "4b8d0f06-0d6d-4ffa-a5a2-5b9ca34f71fb")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "753f77ed-b0f9-4906-bb40-84f9969563be")
+		(property "Reference" "R42"
+			(at 109.22 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cf5ef4d-d7ae-40d4-9610-b71b84482c31")
+		)
+		(pin "1"
+			(uuid "cd95efb3-14ff-4441-87c6-a97c6f1c633d")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75b3f29c-442e-460c-914f-1de7c820fef4")
+		(property "Reference" "D80"
+			(at 144.78 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4ab4b1-976e-4bed-85dd-c7779efc395b")
+		)
+		(pin "2"
+			(uuid "165a928b-d8ca-4816-80da-519ce6bf8d03")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ab6d728-e893-4642-a661-159a2f192a4d")
+		(property "Reference" "R48"
+			(at 109.22 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60c7ef32-74fc-47b8-ba29-9d2cfa82a9b5")
+		)
+		(pin "1"
+			(uuid "9aa4a2dd-6d76-46fe-9774-b3db30474357")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "803f2e8b-f8c2-4394-8ec8-2e31f4ca69ea")
+		(property "Reference" "R49"
+			(at 158.75 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70cd33a5-4305-4d38-abdc-b05ec573887d")
+		)
+		(pin "1"
+			(uuid "e86c17a6-3340-49a0-a550-019fe1d8ebff")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8226e519-3af8-490c-8c1f-98b16164193d")
+		(property "Reference" "R41"
+			(at 39.37 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 39.37 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.052 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ad35c84-7664-4e80-a051-e31730f80e5d")
+		)
+		(pin "2"
+			(uuid "3e1c4e6e-763d-4eef-8311-ccd64954b46d")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83c0f7a2-d88b-45bc-8cf4-8ee328e4c4e1")
+		(property "Reference" "R61"
+			(at 158.75 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b301076-0cf8-45be-a430-f062f37c0016")
+		)
+		(pin "1"
+			(uuid "f2a84a25-a12c-4b90-8b44-ee9beaeed882")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "898c631e-23e3-4da1-b649-dd23efb46ccf")
+		(property "Reference" "D87"
+			(at 95.25 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a64f8b6f-eaab-49d8-a224-ea39c9b64996")
+		)
+		(pin "2"
+			(uuid "eb195647-00a0-4b20-ab20-69112b11c127")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e3da1a2-90b7-4c98-b230-d7ab24403ccc")
+		(property "Reference" "R62"
+			(at 109.22 153.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb352299-974e-453f-ac24-d6d0b33c20bc")
+		)
+		(pin "1"
+			(uuid "c5d535cb-2c36-4083-8cb7-ea1ab1951d74")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92f6449e-e0cb-498b-8e36-ec7ad0f2c886")
+		(property "Reference" "D68"
+			(at 144.78 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5327a665-0cf2-4b18-af20-37e0011c3e7d")
+		)
+		(pin "2"
+			(uuid "968cdd89-0638-4ebc-8d38-8731fedcc0cc")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 176.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9842af7b-79c0-494a-9df0-4bb638227ce5")
+		(property "Reference" "D90"
+			(at 144.78 172.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "411e72f4-b85b-4712-9e59-40d69b2ca6bd")
+		)
+		(pin "2"
+			(uuid "9fecb206-76af-4992-b1d9-4e79ef1db59a")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b069c98-31e6-4387-8334-ba7a6f3d5a5c")
+		(property "Reference" "D81"
+			(at 95.25 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "978c9de8-105b-4870-80de-1610cb529502")
+		)
+		(pin "2"
+			(uuid "dd987e6c-0206-445a-8fe6-5cc607b188f7")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d6d792a-8cf1-4af6-942e-820bd0470d27")
+		(property "Reference" "D78"
+			(at 144.78 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eddd26ab-bcdc-49ab-ad8f-b04a262bfcd9")
+		)
+		(pin "2"
+			(uuid "e0c8b01a-8557-483c-a866-af09cb441bae")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7d30270-e360-4844-be5b-f25a3a63e059")
+		(property "Reference" "D67"
+			(at 95.25 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e2ee011-c38c-4f00-98be-3fe2784bc14c")
+		)
+		(pin "2"
+			(uuid "611fecbb-33ec-4dd5-9fd3-335f5f21fc55")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab63a3af-e0df-436d-b0cd-f80b9a5004ec")
+		(property "Reference" "D75"
+			(at 95.25 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d93ede3f-f1d9-46d8-96d0-70a578c72baa")
+		)
+		(pin "2"
+			(uuid "2b56c2ae-0bcb-4344-a15c-79f3cbbfb7ef")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b41a7004-da3b-4804-a577-44f2b85296fa")
+		(property "Reference" "D79"
+			(at 95.25 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c611ed8-74ba-4f5d-a21e-b5f07834fd49")
+		)
+		(pin "2"
+			(uuid "f96de0dd-7997-43eb-b416-e9bc321ba16a")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b57e4b8d-9f0a-4643-bfb2-89667898e7da")
+		(property "Reference" "D73"
+			(at 95.25 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fbabe23-14e9-4a58-bf75-6e0f9ec60b5d")
+		)
+		(pin "2"
+			(uuid "958c0f8f-6ccc-476e-bbf2-5365bf0aea0d")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9650fc5-729c-4d06-a957-6afa7d920fdd")
+		(property "Reference" "D70"
+			(at 144.78 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae201b20-3359-448d-8768-a7d77fc72e0b")
+		)
+		(pin "2"
+			(uuid "bb3df256-be2b-40aa-84a1-fc5a47da0481")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0016325-1104-4b4a-b4f8-cc5b8316ee41")
+		(property "Reference" "R65"
+			(at 158.75 160.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 165.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "316760b8-4ad6-46cd-a2fd-f799d6af6b26")
+		)
+		(pin "1"
+			(uuid "cbbddff6-6921-4657-b9d2-ca06bc3f7f0b")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c328c179-c2c7-4aff-8334-1e3578ac7ac1")
+		(property "Reference" "R46"
+			(at 109.22 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 104.902 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1c26e23-e97e-436f-b978-74ad1d5a87b6")
+		)
+		(pin "1"
+			(uuid "c65be68a-218b-4a8a-8b5b-fc9ce184fe73")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3725bab-939f-4ac2-bd14-e82c21cf24b6")
+		(property "Reference" "R67"
+			(at 158.75 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 168.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 171.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6d8f659-3e9d-4e3f-994b-08c184af9627")
+		)
+		(pin "1"
+			(uuid "5d1050af-71c2-4521-8ff3-dbe367d06441")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4edd8f8-e91e-42ff-abc2-faa91f0ca2d1")
+		(property "Reference" "R68"
+			(at 109.22 172.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 174.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02a20ede-18aa-42d7-bfe3-36de2a061354")
+		)
+		(pin "1"
+			(uuid "b9108728-a09f-4e4b-964d-7c0d9818319c")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c96c7950-c79a-4458-b6c8-4f8c44cfb755")
+		(property "Reference" "R51"
+			(at 158.75 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2957f180-a8d7-475e-b7b4-0851d0abe8d7")
+		)
+		(pin "1"
+			(uuid "64328b09-34e9-4300-a18e-2b62f7022b7a")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd8b2514-d740-4c39-acf8-48968e076f51")
+		(property "Reference" "D69"
+			(at 95.25 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc831d0d-59e1-4c50-9dde-ab5e1450b367")
+		)
+		(pin "2"
+			(uuid "a185f7ac-6684-4555-bf37-098bfec1fdc1")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf4f3ed3-b793-48d8-9ef4-043efaf73e6f")
+		(property "Reference" "D84"
+			(at 144.78 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "355887f1-f9f2-4b19-905a-70aac8008131")
+		)
+		(pin "2"
+			(uuid "4342da39-1771-4c45-98c6-916d694a21f0")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfc3420b-52f8-4c2f-9cf4-c661e51db6d2")
+		(property "Reference" "R44"
+			(at 109.22 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a475d4f6-40d8-4916-bf80-12becb277a48")
+		)
+		(pin "1"
+			(uuid "f6590fc6-af61-4bc7-a13c-0a923e6c894e")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2d843aa-6922-454b-9258-c37dbdf1fa01")
+		(property "Reference" "R43"
+			(at 158.75 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 92.202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0390700-b59e-4215-90db-e90f38e9e1bd")
+		)
+		(pin "1"
+			(uuid "412c1ca1-734c-4132-8b68-40e36399df59")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5eefdb7-3471-4aee-8a17-02c7f1941975")
+		(property "Reference" "R60"
+			(at 109.22 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 152.908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7e778b53-0e41-491e-b83d-fa939f30e5cd")
+		)
+		(pin "1"
+			(uuid "0bedeb97-74a4-4a62-870d-d07f3569f838")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7052c0b-93ee-49a6-8b0b-9aeeeaa8bbd5")
+		(property "Reference" "D66"
+			(at 144.78 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae6cacbf-a82e-41c8-8f60-f83ceeb1bcb2")
+		)
+		(pin "2"
+			(uuid "41412337-d8ee-4f68-96c4-b48ae8e9f607")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9892666-f783-49ef-b421-d52dd068cf6c")
+		(property "Reference" "D88"
+			(at 144.78 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e07e033-364e-48e3-bfa1-7b81630666d1")
+		)
+		(pin "2"
+			(uuid "b56fc766-cfff-4aec-93ca-0edd369405cd")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbc708b1-da18-40dc-a51f-1804c1cebee6")
+		(property "Reference" "D82"
+			(at 144.78 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c55f1c4d-2132-4fc7-9b0f-fba8682e79b7")
+		)
+		(pin "2"
+			(uuid "ce10df2f-58f6-45e1-b2c8-3afcfc03638c")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcd39914-205a-44f6-824a-cba3826f3e2c")
+		(property "Reference" "R50"
+			(at 109.22 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 121.158 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6070236-7d73-490d-862e-0fc995ec13d1")
+		)
+		(pin "1"
+			(uuid "e7cf47c2-bf73-4905-86e2-089bd41448c1")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dec5745d-4913-4bbb-a410-550a9c4dd8cc")
+		(property "Reference" "#PWR081"
+			(at 120.65 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97356205-dd19-46d4-a179-e70a032cac16")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df2ff690-f780-4a42-bad5-b64f4ea6cefb")
+		(property "Reference" "R55"
+			(at 158.75 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 133.858 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6faded4-184c-4bd9-9127-33a9d82464b3")
+		)
+		(pin "1"
+			(uuid "2ff5d61c-e71d-4b51-953c-2e131ae0d5b7")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:DMN3731U-7")
+		(at 46.99 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed5ee76f-c2e2-4cbe-ac69-f4c66e77b6d0")
+		(property "Reference" "Q2"
+			(at 51.562 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMN3731U-7"
+			(at 51.562 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SOT96P240X110-3N"
+			(at 61.722 126.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/DMN3731U.pdf"
+			(at 61.722 226.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET MOSFET BVDSS: 25V-30V"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 61.722 426.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMN3731U-7"
+			(at 61.722 526.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMN3731U-7?qs=EBDBlbfErPyEqvOCBrONHQ%3D%3D"
+			(at 61.722 626.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 61.722 726.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DMN3731U-7"
+			(at 61.722 826.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c18aae-95ce-4e4a-8226-18509413bac5")
+		)
+		(pin "3"
+			(uuid "d6c017b2-f9eb-4df0-a08e-157a997e2818")
+		)
+		(pin "2"
+			(uuid "fd6dfdd8-7226-4dbe-a7ae-2d9769018d00")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f173d8a7-8d16-4f99-a7b9-a3bb54cba600")
+		(property "Reference" "R71"
+			(at 158.75 179.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 158.75 181.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 184.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3e9881a9-2baf-4964-9776-d360c244f919")
+		)
+		(pin "1"
+			(uuid "f16a9c91-70d0-4e07-b39a-4f826ee671fe")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f51b2757-f826-41ed-b6ec-fa1104d354d3")
+		(property "Reference" "D85"
+			(at 95.25 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71a4109b-aa6f-4091-bdc4-711cb356395d")
+		)
+		(pin "2"
+			(uuid "9d8f8fa3-ca56-4d42-94e1-a2409d1a2a9a")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5455021-dd34-4569-ab42-a24afc439daf")
+		(property "Reference" "R58"
+			(at 109.22 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80"
+			(at 109.22 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc36405e-902b-493a-8105-edc67076d448")
+		)
+		(pin "1"
+			(uuid "39f90d9f-f1ad-4672-bac9-59ebbf20d365")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5bc796f-35b9-409a-b652-1c4442ed592a")
+		(property "Reference" "D63"
+			(at 95.25 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 95.25 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "268f1740-50ca-41be-a0df-f717068c819c")
+		)
+		(pin "2"
+			(uuid "5f2bc782-d306-4aa4-a28c-0b4c2538537b")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f926f997-2fbe-480b-b0e9-ee12c7025c17")
+		(property "Reference" "D76"
+			(at 144.78 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab0d9e57-c3ad-4eb6-984f-d59d5abaa08d")
+		)
+		(pin "2"
+			(uuid "0fac139e-84df-44e2-a39f-ceb911f7cef0")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 144.78 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa880ca5-669b-4ce9-9656-216c6b3b7831")
+		(property "Reference" "D86"
+			(at 144.78 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KT-0805B"
+			(at 144.78 161.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 144.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806130620_Hubei-KENTO-Elec-KT-0805B_C2293.pdf"
+			(at 144.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 144.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 144.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd8c77de-da52-4666-84e6-536ce9f89d00")
+		)
+		(pin "2"
+			(uuid "da8f93e5-3c21-4768-87db-773527b5dd53")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/aa5703fb-7ff3-4554-93bb-8ba912b3fe75/39c88804-9240-43d7-a183-663987764782"
+					(reference "D86")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
