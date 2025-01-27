@@ -1028,7 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 109.22 92.71)
+			(xy 111.76 92.71) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 95.25) (xy 101.6 92.71)
+			(xy 111.76 95.25) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 92.71) (xy 127 92.71)
+			(xy 124.46 92.71) (xy 127 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1181,74 +1181,6 @@
 			(justify right)
 		)
 		(uuid "802fc400-59d9-43ac-81a3-9de4ec958630")
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 114.3 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e7b5b10-0d92-4c67-8d77-4827250ca7aa")
-		(property "Reference" "SW63"
-			(at 114.3 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PTS526SM20SMTR21 LFS"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e6ff17b-461d-434a-a174-4982096ed078")
-		)
-		(pin "2"
-			(uuid "bffe70b6-550d-4878-be4c-b75133e65b52")
-		)
-		(instances
-			(project "rp2040-programmer-calculator"
-				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/8d49ad97-c789-456a-9694-57f2a89048ae"
-					(reference "SW63")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -1609,6 +1541,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 119.38 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bd748be-d72f-45b3-8c74-e78ece0ea3e1")
+		(property "Reference" "SW63"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTS636SL50 LFS"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:PTS636SL50LFS"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f7888dc-a6cc-4fb4-951f-24db289f3620")
+		)
+		(pin "2"
+			(uuid "93794caf-208c-49ff-83e4-981100232181")
+		)
+		(instances
+			(project "rp2040-programmer-calculator"
+				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/8d49ad97-c789-456a-9694-57f2a89048ae"
+					(reference "SW63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 154.94 86.36 0)
 		(unit 1)
@@ -1680,7 +1680,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 95.25 0)
+		(at 111.76 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1689,7 +1689,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5a090bc-c5f2-4748-8a4e-8f60ab01630e")
 		(property "Reference" "#PWR028"
-			(at 101.6 101.6 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1698,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 100.33 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 95.25 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 95.25 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 95.25 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
