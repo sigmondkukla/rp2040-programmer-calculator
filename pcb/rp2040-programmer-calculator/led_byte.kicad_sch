@@ -1762,7 +1762,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 113.03 180)
+		(at 120.65 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1770,8 +1770,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "044892bb-1599-4432-b550-c0e0811893e5")
-		(property "Reference" "D68"
-			(at 109.5375 105.41 0)
+		(property "Reference" "D76"
+			(at 122.2375 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1779,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 109.5375 107.95 0)
+			(at 122.2375 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 113.03 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1796,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 107.95 113.03 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1805,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 113.03 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,19 +1822,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "D68")
+					(reference "D76")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "D100")
+					(reference "D68")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "D84")
+					(reference "D92")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "D76")
+					(reference "D84")
 					(unit 1)
 				)
 			)
@@ -1842,7 +1842,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 125.73 90)
+		(at 107.95 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1850,8 +1850,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13bdeb0e-21ea-4d79-83a8-94764c91d0de")
-		(property "Reference" "R29"
-			(at 120.65 119.38 90)
+		(property "Reference" "R22"
+			(at 107.95 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,15 +1859,15 @@
 			)
 		)
 		(property "Value" "270"
-			(at 120.65 121.92 90)
+			(at 107.95 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 124.714 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.204 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +1876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 125.73 0)
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1885,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 125.73 0)
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,19 +1902,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "R29")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "R26")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "R33")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1922,7 +1922,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 87.63 90)
+		(at 107.95 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1930,8 +1930,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ec2d9f-f4de-428e-a134-4c7c3be6aec2")
-		(property "Reference" "R12"
-			(at 120.65 81.28 90)
+		(property "Reference" "R19"
+			(at 107.95 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,15 +1939,15 @@
 			)
 		)
 		(property "Value" "270"
-			(at 120.65 83.82 90)
+			(at 107.95 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 86.614 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.204 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1956,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 87.63 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 87.63 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,19 +1982,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "R12")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "R16")
+					(reference "R35")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "R14")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2002,7 +2002,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 49.53 90)
+		(at 107.95 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2010,8 +2010,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "154b35c1-bc10-4473-8b3f-64195a654aa6")
-		(property "Reference" "R11"
-			(at 120.65 43.18 90)
+		(property "Reference" "R16"
+			(at 107.95 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,15 +2019,15 @@
 			)
 		)
 		(property "Value" "270"
-			(at 120.65 45.72 90)
+			(at 107.95 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 48.514 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.204 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 49.53 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2045,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 49.53 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,19 +2062,19 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "R27")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "R19")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2090,7 +2090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e2ac40-a4bc-4864-8815-e41973aacce0")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR021"
 			(at 72.39 67.31 0)
 			(effects
 				(font
@@ -2140,19 +2140,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "#PWR07")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "#PWR011")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2160,7 +2160,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 49.53 180)
+		(at 120.65 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2168,8 +2168,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30272c76-0f90-4dd6-a570-b1567c7447bb")
-		(property "Reference" "D63"
-			(at 109.5375 41.91 0)
+		(property "Reference" "D71"
+			(at 122.2375 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 109.5375 44.45 0)
+			(at 122.2375 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2185,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 49.53 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2194,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 107.95 49.53 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2203,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 49.53 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,19 +2220,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "D63")
+					(reference "D71")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "D95")
+					(reference "D63")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "D79")
+					(reference "D87")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "D71")
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -2248,7 +2248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36ceaca9-3ecf-4c8b-bd89-fc1c31228ee3")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR022"
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -2298,19 +2298,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "#PWR08")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "#PWR020")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "#PWR012")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2318,7 +2318,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 125.73 180)
+		(at 120.65 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2326,8 +2326,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c743533-d7e4-46dd-8556-f3688ecb00e0")
-		(property "Reference" "D69"
-			(at 109.5375 118.11 0)
+		(property "Reference" "D77"
+			(at 122.2375 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2335,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 109.5375 120.65 0)
+			(at 122.2375 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 125.73 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2352,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 107.95 125.73 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2361,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 125.73 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,19 +2378,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "D69")
+					(reference "D77")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "D101")
+					(reference "D69")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "D85")
+					(reference "D93")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "D77")
+					(reference "D85")
 					(unit 1)
 				)
 			)
@@ -2406,7 +2406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fbf7506-fc49-4777-9cc8-c070bda16a22")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 66.04 68.5799 0)
 			(effects
 				(font
@@ -2424,7 +2424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.1952 73.66 0)
 			(effects
 				(font
@@ -2460,19 +2460,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "C2")
-					(unit 1)
-				)
-				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
 					(reference "C5")
 					(unit 1)
 				)
-				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
+				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
+					(reference "C7")
+					(unit 1)
+				)
+				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2488,7 +2488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f8e8d1-ee9e-4760-9236-7545869de63a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR023"
 			(at 72.39 120.65 0)
 			(effects
 				(font
@@ -2538,19 +2538,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "#PWR09")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "#PWR021")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "#PWR013")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2566,7 +2566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c02f4db-d6b1-40d3-b1e2-e5faf76a192a")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR024"
 			(at 127 147.32 0)
 			(effects
 				(font
@@ -2616,19 +2616,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "#PWR010")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "#PWR018")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2636,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 74.93 90)
+		(at 107.95 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2644,8 +2644,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c8cdc1-a0ec-4332-8473-4123563dd41f")
-		(property "Reference" "R10"
-			(at 120.65 68.58 90)
+		(property "Reference" "R18"
+			(at 107.95 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,15 +2653,15 @@
 			)
 		)
 		(property "Value" "270"
-			(at 120.65 71.12 90)
+			(at 107.95 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 73.914 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.204 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2670,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 74.93 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2679,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 74.93 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,19 +2696,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "R10")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "R15")
+					(reference "R34")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "R13")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -2716,7 +2716,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 138.43 90)
+		(at 107.95 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2724,8 +2724,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "779900df-5597-48aa-bc59-fe936430d592")
-		(property "Reference" "R30"
-			(at 120.65 132.08 90)
+		(property "Reference" "R23"
+			(at 107.95 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,15 +2733,15 @@
 			)
 		)
 		(property "Value" "270"
-			(at 120.65 134.62 90)
+			(at 107.95 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 137.414 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.204 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 138.43 0)
+			(at 107.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2759,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 138.43 0)
+			(at 107.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,19 +2776,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "R30")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "R28")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "R34")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "R32")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -2796,7 +2796,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 100.33 90)
+		(at 107.95 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2805,7 +2805,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ce5d08b-f6da-4f3d-8732-050ebf543cc9")
 		(property "Reference" "R20"
-			(at 120.65 93.98 90)
+			(at 107.95 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,15 +2813,15 @@
 			)
 		)
 		(property "Value" "270"
-			(at 120.65 96.52 90)
+			(at 107.95 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 99.314 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.204 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2830,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 100.33 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2839,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 100.33 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,15 +2860,15 @@
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "R17")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "R24")
+					(reference "R36")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "R22")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2884,7 +2884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c3290f2-8d57-4b4a-ba76-b90d4e2794f4")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 74.5841 76.2 0)
 			(effects
 				(font
@@ -2980,11 +2980,11 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
@@ -3000,7 +3000,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 138.43 180)
+		(at 120.65 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3008,8 +3008,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9109d335-29ec-4566-909a-25eebe06abd4")
-		(property "Reference" "D70"
-			(at 109.5375 130.81 0)
+		(property "Reference" "D78"
+			(at 122.2375 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3017,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 109.5375 133.35 0)
+			(at 122.2375 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3025,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 138.43 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3034,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 107.95 138.43 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3043,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 138.43 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,19 +3060,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "D70")
+					(reference "D78")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "D102")
+					(reference "D70")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "D86")
+					(reference "D94")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "D78")
+					(reference "D86")
 					(unit 1)
 				)
 			)
@@ -3080,7 +3080,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 100.33 180)
+		(at 120.65 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3088,8 +3088,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9472c6fa-4934-4c3a-9561-7497dd6c068f")
-		(property "Reference" "D67"
-			(at 109.5375 92.71 0)
+		(property "Reference" "D75"
+			(at 122.2375 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3097,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 109.5375 95.25 0)
+			(at 122.2375 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,7 +3105,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 100.33 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3114,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 107.95 100.33 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +3123,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 100.33 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3140,19 +3140,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "D67")
+					(reference "D75")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "D99")
+					(reference "D67")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "D83")
+					(reference "D91")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "D75")
+					(reference "D83")
 					(unit 1)
 				)
 			)
@@ -3160,7 +3160,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 62.23 180)
+		(at 120.65 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3168,8 +3168,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7dd4f26-b8b6-41cc-85c4-91a3cf9b07fb")
-		(property "Reference" "D64"
-			(at 109.5375 54.61 0)
+		(property "Reference" "D72"
+			(at 122.2375 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3177,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 109.5375 57.15 0)
+			(at 122.2375 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3185,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 62.23 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3194,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 107.95 62.23 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 62.23 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,19 +3220,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "D64")
+					(reference "D72")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "D96")
+					(reference "D64")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "D80")
+					(reference "D88")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "D72")
+					(reference "D80")
 					(unit 1)
 				)
 			)
@@ -3240,7 +3240,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 62.23 90)
+		(at 107.95 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3248,8 +3248,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c843da27-1965-4f6e-9c58-c220465a2c9a")
-		(property "Reference" "R5"
-			(at 120.65 55.88 90)
+		(property "Reference" "R17"
+			(at 107.95 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,15 +3257,15 @@
 			)
 		)
 		(property "Value" "270"
-			(at 120.65 58.42 90)
+			(at 107.95 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 61.214 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.204 61.214 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +3274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 62.23 0)
+			(at 107.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3283,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 62.23 0)
+			(at 107.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,19 +3300,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "R5")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "R7")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "R6")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3320,7 +3320,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 87.63 180)
+		(at 120.65 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3328,8 +3328,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf19e240-23fe-44d3-b9fd-b56320adf0dc")
-		(property "Reference" "D66"
-			(at 109.5375 80.01 0)
+		(property "Reference" "D74"
+			(at 122.2375 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3337,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 109.5375 82.55 0)
+			(at 122.2375 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3345,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 87.63 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3354,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 107.95 87.63 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3363,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 87.63 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,19 +3380,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "D66")
+					(reference "D74")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "D98")
+					(reference "D66")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "D82")
+					(reference "D90")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "D74")
+					(reference "D82")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3400,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 120.65 113.03 90)
+		(at 107.95 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3409,7 +3409,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed131f92-1f9d-47e8-87d2-4922b6eedeb9")
 		(property "Reference" "R21"
-			(at 120.65 106.68 90)
+			(at 107.95 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,15 +3417,15 @@
 			)
 		)
 		(property "Value" "270"
-			(at 120.65 109.22 90)
+			(at 107.95 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.904 112.014 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.204 112.014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 113.03 0)
+			(at 107.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3443,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 120.65 113.03 0)
+			(at 107.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,15 +3464,15 @@
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "R18")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "R25")
+					(reference "R37")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "R23")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3480,7 +3480,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.95 74.93 180)
+		(at 120.65 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3488,8 +3488,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2820ad-b941-4184-a7da-e193508d377c")
-		(property "Reference" "D65"
-			(at 109.5375 67.31 0)
+		(property "Reference" "D73"
+			(at 122.2375 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3497,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 109.5375 69.85 0)
+			(at 122.2375 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3505,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 107.95 74.93 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3514,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 107.95 74.93 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3523,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.95 74.93 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,19 +3540,19 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/00f6e376-341a-4167-808e-422dc20aa13b"
-					(reference "D65")
+					(reference "D73")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/2926b319-e304-4aaa-bb62-9e3f1f1a6434"
-					(reference "D97")
+					(reference "D65")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/411e88ce-c350-41e2-bb68-3e8a18742334"
-					(reference "D81")
+					(reference "D89")
 					(unit 1)
 				)
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/75befd12-7fe7-4b20-aaf5-feaf4315c834/d8be8f4b-5a18-4aef-b2c6-e62774763dcb"
-					(reference "D73")
+					(reference "D81")
 					(unit 1)
 				)
 			)

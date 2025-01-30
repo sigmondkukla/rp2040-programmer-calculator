@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XB7608AJ")(type "KiCad")(uri "${KIPRJMOD}/../libraries/XB7608AJ/XB7608AJ.pretty")(options "")(descr ""))
+  (lib (name "TCA8418RWTR")(type "KiCad")(uri "${KIPRJMOD}/../libraries/TCA8418RTWR")(options "")(descr ""))
+  (lib (name "SSD1322_OLED")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SSD1322_OLED/SSD1322_OLED.pretty")(options "")(descr ""))
+)

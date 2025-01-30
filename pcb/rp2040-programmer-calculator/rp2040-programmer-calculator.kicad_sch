@@ -2530,6 +2530,10 @@
 		(uuid "a728abe7-430e-46b9-b91d-9d670743c8e3")
 	)
 	(no_connect
+		(at 127 139.7)
+		(uuid "1774c6b1-34b2-4f8b-b496-906816df823a")
+	)
+	(no_connect
 		(at 127 88.9)
 		(uuid "461a6e4c-b7bf-4c5d-93a1-a743e7a21b20")
 	)
@@ -2548,16 +2552,6 @@
 	(no_connect
 		(at 127 127)
 		(uuid "8b25ca08-26df-4a27-ae29-2dd506757d1e")
-	)
-	(wire
-		(pts
-			(xy 63.5 88.9) (xy 66.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "004fa9c3-598e-4388-a691-8fba88bcc069")
 	)
 	(wire
 		(pts
@@ -3061,6 +3055,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 86.36) (xy 66.04 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afd4392-c1a2-4a67-be2f-1ac8510b5b91")
+	)
+	(wire
+		(pts
 			(xy 111.76 71.12) (xy 111.76 64.77)
 		)
 		(stroke
@@ -3271,6 +3275,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 88.9) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be433a79-114f-4736-b940-bc0626069002")
+	)
+	(wire
+		(pts
 			(xy 50.8 124.46) (xy 50.8 125.73)
 		)
 		(stroke
@@ -3388,16 +3402,6 @@
 			(type default)
 		)
 		(uuid "e901b0de-65f9-4985-89f7-1350aa7ce244")
-	)
-	(wire
-		(pts
-			(xy 63.5 86.36) (xy 66.04 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e964d6b1-4559-4666-94b9-01c8473c3cdd")
 	)
 	(wire
 		(pts
@@ -3742,7 +3746,7 @@
 		(uuid "67008dc2-e022-43de-b6fb-ebb0f479cf98")
 	)
 	(label "MATRIX_~{INT}"
-		(at 152.4 86.36 180)
+		(at 152.4 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3852,7 +3856,7 @@
 		(uuid "9dd6d42a-8e06-43e7-b47e-7fc84d63af2c")
 	)
 	(label "MATRIX_~{RESET}"
-		(at 152.4 83.82 180)
+		(at 152.4 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4031,7 +4035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0102dfc8-ccc5-473b-a61e-5ff8cbc19d6c")
-		(property "Reference" "R57"
+		(property "Reference" "R2"
 			(at 171.45 44.45 90)
 			(effects
 				(font
@@ -4047,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.704 49.784 90)
 			(effects
 				(font
@@ -4083,7 +4087,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "R57")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4099,7 +4103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0771c8b1-9e02-4ee7-b41a-08e7f1da0f97")
-		(property "Reference" "TP8"
+		(property "Reference" "TP1"
 			(at 81.28 36.8299 90)
 			(effects
 				(font
@@ -4117,7 +4121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 76.2 43.18 0)
 			(effects
 				(font
@@ -4150,7 +4154,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "TP8")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -4166,7 +4170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e029cfb-513e-470d-ad01-9b8e8c7da6f6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR010"
 			(at 73.66 171.45 0)
 			(effects
 				(font
@@ -4216,7 +4220,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR033")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4232,7 +4236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f63ea9c-c764-40c9-8e53-182ecee57c3d")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR07"
 			(at 193.04 160.02 0)
 			(effects
 				(font
@@ -4282,7 +4286,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR085")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4298,7 +4302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1623ee89-d471-404f-8232-22e195bcc1d1")
-		(property "Reference" "SW64"
+		(property "Reference" "SW1"
 			(at 200.66 143.51 0)
 			(effects
 				(font
@@ -4350,7 +4354,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "SW64")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -4366,7 +4370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "176aa8e4-f485-459b-890b-c8d550970002")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR04"
 			(at 44.45 135.89 0)
 			(effects
 				(font
@@ -4416,7 +4420,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR023")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4431,7 +4435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21971bbc-aa9e-41c2-999a-497a7068d273")
-		(property "Reference" "TP12"
+		(property "Reference" "TP2"
 			(at 139.7 106.68 90)
 			(effects
 				(font
@@ -4449,7 +4453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 134.62 111.76 0)
 			(effects
 				(font
@@ -4482,7 +4486,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "TP12")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4497,7 +4501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2921b9ee-344b-4efc-a8f5-7ff8b12d61d2")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 34.29 118.11 90)
 			(effects
 				(font
@@ -4558,7 +4562,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4573,7 +4577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c4ac6a0-0f4f-4038-9e51-be07e5bc2d89")
-		(property "Reference" "TP11"
+		(property "Reference" "TP4"
 			(at 139.7 149.86 90)
 			(effects
 				(font
@@ -4591,7 +4595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 134.62 154.94 0)
 			(effects
 				(font
@@ -4624,7 +4628,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "TP11")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -4640,7 +4644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3842300f-ea8d-47ae-8a25-8b78c611f44b")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR09"
 			(at 212.09 161.29 0)
 			(effects
 				(font
@@ -4690,7 +4694,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR084")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4706,7 +4710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "440db39a-68ae-4a62-95db-d2621a9d5a51")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 101.6 171.45 0)
 			(effects
 				(font
@@ -4756,7 +4760,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4772,7 +4776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57234c0b-9cfb-46dc-a870-06759b885957")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR02"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -4822,7 +4826,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR035")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4838,7 +4842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d121b5f-7f9d-40e3-b100-cead94054d1a")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR08"
 			(at 201.93 156.21 0)
 			(effects
 				(font
@@ -4889,7 +4893,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR086")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4904,7 +4908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65b13d02-c5df-4cfd-a27a-91ca0f62c619")
-		(property "Reference" "TP9"
+		(property "Reference" "TP6"
 			(at 139.7 154.94 90)
 			(effects
 				(font
@@ -4922,7 +4926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 134.62 160.02 0)
 			(effects
 				(font
@@ -4955,7 +4959,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "TP9")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -4970,7 +4974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68000a72-6627-49eb-a868-df834ef8a076")
-		(property "Reference" "R42"
+		(property "Reference" "R3"
 			(at 69.85 81.28 90)
 			(effects
 				(font
@@ -4986,7 +4990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 70.104 85.344 90)
 			(effects
 				(font
@@ -5022,7 +5026,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "R42")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5037,7 +5041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "752e5781-3a2d-4469-aaa7-18259bfbe734")
-		(property "Reference" "TP10"
+		(property "Reference" "TP5"
 			(at 139.7 152.4 90)
 			(effects
 				(font
@@ -5055,7 +5059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 134.62 157.48 0)
 			(effects
 				(font
@@ -5088,7 +5092,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "TP10")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -5104,7 +5108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83e63153-2e3f-4589-9528-d538686a909e")
-		(property "Reference" "R35"
+		(property "Reference" "R5"
 			(at 69.85 128.27 90)
 			(effects
 				(font
@@ -5120,7 +5124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 70.104 133.604 90)
 			(effects
 				(font
@@ -5156,7 +5160,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "R35")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5171,7 +5175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dbef229-66b9-4435-886a-0585cc8958cf")
-		(property "Reference" "TP13"
+		(property "Reference" "TP3"
 			(at 139.7 109.22 90)
 			(effects
 				(font
@@ -5189,7 +5193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 134.62 114.3 0)
 			(effects
 				(font
@@ -5222,7 +5226,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "TP13")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5320,7 +5324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dd267cf-22db-4e9e-9020-1a6686aa79ab")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 34.29 128.27 90)
 			(effects
 				(font
@@ -5381,7 +5385,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5397,7 +5401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a659f1a7-d519-4e4b-bfbf-e03c2d642e8a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR06"
 			(at 27.94 143.51 0)
 			(effects
 				(font
@@ -5447,7 +5451,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR025")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b266d54a-41ad-4102-9bfb-167e38070c05")
-		(property "Reference" "R56"
+		(property "Reference" "R1"
 			(at 171.45 31.75 90)
 			(effects
 				(font
@@ -5479,7 +5483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.704 37.084 90)
 			(effects
 				(font
@@ -5515,7 +5519,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "R56")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5531,7 +5535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9a8586e-572e-48f8-9b0d-dd2429818e73")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR03"
 			(at 111.76 62.23 0)
 			(effects
 				(font
@@ -5581,7 +5585,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR034")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5597,7 +5601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc5f07a2-7a0f-4265-9a5c-8847264b7523")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR01"
 			(at 177.8 35.56 0)
 			(effects
 				(font
@@ -5647,7 +5651,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR087")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5662,7 +5666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbab766f-7697-430d-b493-ce64134ad762")
-		(property "Reference" "R41"
+		(property "Reference" "R4"
 			(at 69.85 91.186 90)
 			(effects
 				(font
@@ -5678,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 70.104 87.884 90)
 			(effects
 				(font
@@ -5714,7 +5718,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "R41")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5730,7 +5734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3cc245d-1411-4247-985b-91319c636282")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 103.7941 161.29 0)
 			(effects
 				(font
@@ -5949,7 +5953,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5964,7 +5968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e98e12b9-fda9-4d69-8155-4814d08ab6dd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR05"
 			(at 57.15 135.89 0)
 			(effects
 				(font
@@ -6014,7 +6018,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "#PWR024")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6030,7 +6034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f10b72a2-c1c3-4df6-a927-1071380a0510")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 224.79 154.9399 0)
 			(effects
 				(font
@@ -6048,7 +6052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 222.25 156.21 0)
 			(effects
 				(font
@@ -6093,7 +6097,7 @@
 		(instances
 			(project ""
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6130,7 +6134,7 @@
 				(hide yes)
 			)
 		)
-		(pin "USB_DM" input
+		(pin "USB_DN" input
 			(at 63.5 88.9 0)
 			(effects
 				(font

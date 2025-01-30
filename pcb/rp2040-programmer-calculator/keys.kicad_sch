@@ -1950,7 +1950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01e1b8be-a4c8-43d9-81b9-568f3c4a5cf5")
-		(property "Reference" "SW46"
+		(property "Reference" "SW47"
 			(at 151.13 71.12 0)
 			(effects
 				(font
@@ -2002,7 +2002,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW46")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -2018,7 +2018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080e82e4-ae2f-4bc8-8482-415c3239d039")
-		(property "Reference" "SW38"
+		(property "Reference" "SW39"
 			(at 74.93 58.42 0)
 			(effects
 				(font
@@ -2070,7 +2070,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW38")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bfe5f0f-f10f-4e76-8d05-550a994aae44")
-		(property "Reference" "SW56"
+		(property "Reference" "SW57"
 			(at 151.13 96.52 0)
 			(effects
 				(font
@@ -2224,7 +2224,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW56")
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -2326,7 +2326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12686543-262a-4e81-83df-cf9dfcbcc957")
-		(property "Reference" "SW50"
+		(property "Reference" "SW51"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -2378,7 +2378,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW50")
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -2996,7 +2996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32c92851-d518-4b5e-8191-befb394c965b")
-		(property "Reference" "SW42"
+		(property "Reference" "SW43"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -3048,7 +3048,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW42")
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -3150,7 +3150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "450a17d0-dabc-4918-a720-1f26031eb7b5")
-		(property "Reference" "SW57"
+		(property "Reference" "SW58"
 			(at 176.53 96.52 0)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW57")
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -3218,7 +3218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a6a0833-e85e-4a40-adaa-135247540a88")
-		(property "Reference" "SW60"
+		(property "Reference" "SW61"
 			(at 125.73 109.22 0)
 			(effects
 				(font
@@ -3270,7 +3270,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW60")
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -3372,7 +3372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59fdf7b5-9a5c-4669-8445-0bae1aec7c83")
-		(property "Reference" "SW43"
+		(property "Reference" "SW44"
 			(at 74.93 71.12 0)
 			(effects
 				(font
@@ -3424,7 +3424,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW43")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -3956,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f5d23b2-a2bb-4200-9fad-3aa819174a15")
-		(property "Reference" "SW59"
+		(property "Reference" "SW60"
 			(at 100.33 109.22 0)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW59")
+					(reference "SW60")
 					(unit 1)
 				)
 			)
@@ -4024,7 +4024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "830edfc1-0aa6-400b-843e-846e5cdd38b2")
-		(property "Reference" "SW62"
+		(property "Reference" "SW63"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -4076,7 +4076,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW62")
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -4178,7 +4178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a359277-877d-4c51-9236-d204ae299939")
-		(property "Reference" "SW35"
+		(property "Reference" "SW36"
 			(at 125.73 45.72 0)
 			(effects
 				(font
@@ -4230,7 +4230,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW35")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -4246,7 +4246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2b4279-e2bf-45d9-9063-97bd40bcf685")
-		(property "Reference" "SW51"
+		(property "Reference" "SW52"
 			(at 151.13 83.82 0)
 			(effects
 				(font
@@ -4298,7 +4298,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW51")
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d46f365-4e9a-4854-bf8e-b86b12715186")
-		(property "Reference" "SW48"
+		(property "Reference" "SW49"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -4452,7 +4452,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW48")
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -4468,7 +4468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e045a9e-1cd6-48b7-9467-a66a131dbf5e")
-		(property "Reference" "SW58"
+		(property "Reference" "SW59"
 			(at 74.93 109.22 0)
 			(effects
 				(font
@@ -4520,7 +4520,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW58")
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92869fca-c940-4fe2-8275-06b19f5637c8")
-		(property "Reference" "SW54"
+		(property "Reference" "SW55"
 			(at 100.33 96.52 0)
 			(effects
 				(font
@@ -4588,7 +4588,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW54")
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -4604,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "930fbe84-2f3e-4d22-bde2-c04793ceb486")
-		(property "Reference" "SW39"
+		(property "Reference" "SW40"
 			(at 100.33 58.42 0)
 			(effects
 				(font
@@ -4656,7 +4656,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW39")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -4672,7 +4672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9442a761-2220-40cd-97f2-c06ff7162fe4")
-		(property "Reference" "SW45"
+		(property "Reference" "SW46"
 			(at 125.73 71.12 0)
 			(effects
 				(font
@@ -4724,7 +4724,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW45")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -4740,7 +4740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97c675d7-19d4-4dbc-8e1b-32f3ac764db7")
-		(property "Reference" "SW53"
+		(property "Reference" "SW54"
 			(at 74.93 96.52 0)
 			(effects
 				(font
@@ -4792,7 +4792,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW53")
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -4894,7 +4894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a591eafd-c4be-4537-9a57-71341a001d9b")
-		(property "Reference" "SW37"
+		(property "Reference" "SW38"
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW37")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -5134,7 +5134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b347dca0-51d1-4649-a4c1-517c1a995281")
-		(property "Reference" "SW34"
+		(property "Reference" "SW35"
 			(at 100.33 45.72 0)
 			(effects
 				(font
@@ -5186,7 +5186,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW34")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -5202,7 +5202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6fa08ef-d92e-4508-a8dd-da49114327e4")
-		(property "Reference" "SW40"
+		(property "Reference" "SW41"
 			(at 125.73 58.42 0)
 			(effects
 				(font
@@ -5254,7 +5254,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW40")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -5270,7 +5270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5a1a65c-1f8d-48a6-8f35-97a85f3262a9")
-		(property "Reference" "SW52"
+		(property "Reference" "SW53"
 			(at 176.53 83.82 0)
 			(effects
 				(font
@@ -5322,7 +5322,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW52")
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -5424,7 +5424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb9cbe09-728a-4005-8ffd-4170c9d25549")
-		(property "Reference" "SW36"
+		(property "Reference" "SW37"
 			(at 151.13 45.72 0)
 			(effects
 				(font
@@ -5476,7 +5476,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW36")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -5578,7 +5578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6a2d51c-bb2d-41ed-b746-69a448564f0a")
-		(property "Reference" "SW47"
+		(property "Reference" "SW48"
 			(at 176.53 71.12 0)
 			(effects
 				(font
@@ -5630,7 +5630,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW47")
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -5904,7 +5904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de560a7f-1d16-41d2-8ef6-92f0e4975b4e")
-		(property "Reference" "SW44"
+		(property "Reference" "SW45"
 			(at 100.33 71.12 0)
 			(effects
 				(font
@@ -5956,7 +5956,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW44")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -6058,7 +6058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df672d39-e387-4c31-8f14-d7468f9ad1de")
-		(property "Reference" "SW41"
+		(property "Reference" "SW42"
 			(at 151.13 58.42 0)
 			(effects
 				(font
@@ -6110,7 +6110,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW41")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -6126,7 +6126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df7eeb4f-e3c8-46c7-9da3-8bd9ed2a89ba")
-		(property "Reference" "SW49"
+		(property "Reference" "SW50"
 			(at 100.33 83.82 0)
 			(effects
 				(font
@@ -6178,7 +6178,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW49")
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -6366,7 +6366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9cab0ad-3e5a-4b68-a4d7-29a15fa77e88")
-		(property "Reference" "SW33"
+		(property "Reference" "SW34"
 			(at 74.93 45.72 0)
 			(effects
 				(font
@@ -6418,7 +6418,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW33")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed20dad4-48f4-4665-97c7-e61b8fe551ed")
-		(property "Reference" "SW61"
+		(property "Reference" "SW62"
 			(at 151.13 109.22 0)
 			(effects
 				(font
@@ -6486,7 +6486,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW61")
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed21c580-315c-45a0-ace8-e66629a1c945")
-		(property "Reference" "SW55"
+		(property "Reference" "SW56"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -6554,7 +6554,7 @@
 		(instances
 			(project "rp2040-programmer-calculator"
 				(path "/a76e07d4-0b9a-412a-8673-6db50899653e/f05d4cfd-525d-48e4-b658-a76a5d301532/1a2e37d6-841a-461a-bf30-df5f7b439998"
-					(reference "SW55")
+					(reference "SW56")
 					(unit 1)
 				)
 			)
