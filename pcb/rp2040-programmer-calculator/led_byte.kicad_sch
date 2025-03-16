@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f679f89a-c086-4f0b-a098-2d1b63172efb")
 	(paper "A4")
 	(lib_symbols
@@ -71,35 +71,17 @@
 				)
 			)
 			(symbol "74HC595_1_0"
-				(pin tri_state line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "QB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at -10.16 2.54 0)
+					(at -10.16 10.16 0)
 					(length 2.54)
-					(name "~{SRCLR}"
+					(name "SER"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -118,6 +100,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "~{SRCLR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -161,17 +161,35 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 10.16 0)
+				(pin power_in line
+					(at 0 15.24 270)
 					(length 2.54)
-					(name "SER"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -197,17 +215,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 15.24 270)
+				(pin tri_state line
+					(at 10.16 7.62 180)
 					(length 2.54)
-					(name "VCC"
+					(name "QB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "16"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -323,24 +341,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -17.78 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 10.16 -12.7 180)
 					(length 2.54)
@@ -373,9 +373,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -448,7 +451,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -460,7 +463,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -509,11 +512,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -581,10 +589,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -605,7 +625,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -617,22 +637,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -678,9 +686,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -751,18 +762,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -775,7 +774,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -799,7 +798,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -848,12 +859,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -925,7 +941,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -937,7 +953,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -968,12 +984,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1064,6 +1085,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1186,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 113.03) (xy 116.84 113.03)
+			(xy 111.76 74.93) (xy 116.84 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 87.63) (xy 116.84 87.63)
+			(xy 111.76 100.33) (xy 116.84 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 125.73) (xy 116.84 125.73)
+			(xy 111.76 62.23) (xy 116.84 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 74.93) (xy 116.84 74.93)
+			(xy 111.76 113.03) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 138.43) (xy 116.84 138.43)
+			(xy 111.76 49.53) (xy 116.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 116.84 100.33)
+			(xy 111.76 87.63) (xy 116.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 62.23) (xy 116.84 62.23)
+			(xy 111.76 125.73) (xy 116.84 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1686,7 +1708,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 49.53) (xy 116.84 49.53)
+			(xy 111.76 138.43) (xy 116.84 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1762,7 +1784,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 113.03 180)
+		(at 120.65 74.93 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1770,8 +1793,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "044892bb-1599-4432-b550-c0e0811893e5")
-		(property "Reference" "D76"
-			(at 122.2375 105.41 0)
+		(property "Reference" "D68"
+			(at 122.2375 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,7 +1802,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 122.2375 107.95 0)
+			(at 122.2375 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1810,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 120.65 113.03 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1819,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 120.65 113.03 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1828,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 113.03 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1865,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 125.73 90)
+		(at 107.95 62.23 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1850,8 +1874,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13bdeb0e-21ea-4d79-83a8-94764c91d0de")
-		(property "Reference" "R22"
-			(at 107.95 119.38 90)
+		(property "Reference" "R14"
+			(at 107.95 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1883,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 107.95 121.92 90)
+			(at 107.95 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1891,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.204 124.714 90)
+			(at 108.204 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +1900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 125.73 0)
+			(at 107.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1909,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 125.73 0)
+			(at 107.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +1946,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 87.63 90)
+		(at 107.95 100.33 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1930,8 +1955,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ec2d9f-f4de-428e-a134-4c7c3be6aec2")
-		(property "Reference" "R19"
-			(at 107.95 81.28 90)
+		(property "Reference" "R11"
+			(at 107.95 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,7 +1964,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 107.95 83.82 90)
+			(at 107.95 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1972,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.204 86.614 90)
+			(at 108.204 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 87.63 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1990,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 87.63 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2027,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 49.53 90)
+		(at 107.95 138.43 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2010,8 +2036,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "154b35c1-bc10-4473-8b3f-64195a654aa6")
-		(property "Reference" "R16"
-			(at 107.95 43.18 90)
+		(property "Reference" "R8"
+			(at 107.95 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +2045,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 107.95 45.72 90)
+			(at 107.95 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2053,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.204 48.514 90)
+			(at 108.204 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 49.53 0)
+			(at 107.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2071,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 49.53 0)
+			(at 107.95 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +2116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e2ac40-a4bc-4864-8815-e41973aacce0")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 72.39 67.31 0)
 			(effects
 				(font
@@ -2160,7 +2186,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 49.53 180)
+		(at 120.65 138.43 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2168,8 +2195,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30272c76-0f90-4dd6-a570-b1567c7447bb")
-		(property "Reference" "D71"
-			(at 122.2375 41.91 0)
+		(property "Reference" "D63"
+			(at 122.2375 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2204,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 122.2375 44.45 0)
+			(at 122.2375 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2212,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 120.65 49.53 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2221,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 120.65 49.53 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2230,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 49.53 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36ceaca9-3ecf-4c8b-bd89-fc1c31228ee3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR018"
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -2318,7 +2345,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 125.73 180)
+		(at 120.65 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2326,8 +2354,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c743533-d7e4-46dd-8556-f3688ecb00e0")
-		(property "Reference" "D77"
-			(at 122.2375 118.11 0)
+		(property "Reference" "D69"
+			(at 122.2375 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2363,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 122.2375 120.65 0)
+			(at 122.2375 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2371,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 120.65 125.73 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2380,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 120.65 125.73 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2389,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 125.73 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fbf7506-fc49-4777-9cc8-c070bda16a22")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 66.04 68.5799 0)
 			(effects
 				(font
@@ -2488,7 +2516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56f8e8d1-ee9e-4760-9236-7545869de63a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR019"
 			(at 72.39 120.65 0)
 			(effects
 				(font
@@ -2566,7 +2594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c02f4db-d6b1-40d3-b1e2-e5faf76a192a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR020"
 			(at 127 147.32 0)
 			(effects
 				(font
@@ -2636,7 +2664,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 74.93 90)
+		(at 107.95 113.03 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2644,8 +2673,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c8cdc1-a0ec-4332-8473-4123563dd41f")
-		(property "Reference" "R18"
-			(at 107.95 68.58 90)
+		(property "Reference" "R10"
+			(at 107.95 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2682,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 107.95 71.12 90)
+			(at 107.95 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2690,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.204 73.914 90)
+			(at 108.204 114.046 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 74.93 0)
+			(at 107.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2708,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 74.93 0)
+			(at 107.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2745,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 138.43 90)
+		(at 107.95 49.53 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2724,8 +2754,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "779900df-5597-48aa-bc59-fe936430d592")
-		(property "Reference" "R23"
-			(at 107.95 132.08 90)
+		(property "Reference" "R15"
+			(at 107.95 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +2763,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 107.95 134.62 90)
+			(at 107.95 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2771,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.204 137.414 90)
+			(at 108.204 50.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 138.43 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2789,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 138.43 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2826,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 100.33 90)
+		(at 107.95 87.63 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2804,7 +2835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce5d08b-f6da-4f3d-8732-050ebf543cc9")
-		(property "Reference" "R20"
+		(property "Reference" "R12"
 			(at 107.95 93.98 90)
 			(effects
 				(font
@@ -2813,7 +2844,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 107.95 96.52 90)
+			(at 107.95 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2852,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.204 99.314 90)
+			(at 108.204 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2830,7 +2861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 100.33 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2870,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 100.33 0)
+			(at 107.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c3290f2-8d57-4b4a-ba76-b90d4e2794f4")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 74.5841 76.2 0)
 			(effects
 				(font
@@ -3000,7 +3031,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 138.43 180)
+		(at 120.65 49.53 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3008,8 +3040,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9109d335-29ec-4566-909a-25eebe06abd4")
-		(property "Reference" "D78"
-			(at 122.2375 130.81 0)
+		(property "Reference" "D70"
+			(at 122.2375 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3017,7 +3049,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 122.2375 133.35 0)
+			(at 122.2375 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3057,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 120.65 138.43 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3066,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 120.65 138.43 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3075,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 138.43 0)
+			(at 120.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3112,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 100.33 180)
+		(at 120.65 87.63 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3088,15 +3121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9472c6fa-4934-4c3a-9561-7497dd6c068f")
-		(property "Reference" "D75"
-			(at 122.2375 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN-S85AT5B"
+		(property "Reference" "D67"
 			(at 122.2375 95.25 0)
 			(effects
 				(font
@@ -3104,8 +3129,16 @@
 				)
 			)
 		)
+		(property "Value" "IN-S85AT5B"
+			(at 122.2375 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 120.65 100.33 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3147,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 120.65 100.33 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +3156,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 100.33 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3193,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 62.23 180)
+		(at 120.65 125.73 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3168,8 +3202,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7dd4f26-b8b6-41cc-85c4-91a3cf9b07fb")
-		(property "Reference" "D72"
-			(at 122.2375 54.61 0)
+		(property "Reference" "D64"
+			(at 122.2375 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3211,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 122.2375 57.15 0)
+			(at 122.2375 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3219,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 120.65 62.23 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3228,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 120.65 62.23 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3237,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 62.23 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3274,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 62.23 90)
+		(at 107.95 125.73 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3248,8 +3283,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c843da27-1965-4f6e-9c58-c220465a2c9a")
-		(property "Reference" "R17"
-			(at 107.95 55.88 90)
+		(property "Reference" "R9"
+			(at 107.95 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3292,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 107.95 58.42 90)
+			(at 107.95 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,7 +3300,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.204 61.214 90)
+			(at 108.204 126.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +3309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 62.23 0)
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3318,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 62.23 0)
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3355,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 87.63 180)
+		(at 120.65 100.33 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3328,8 +3364,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf19e240-23fe-44d3-b9fd-b56320adf0dc")
-		(property "Reference" "D74"
-			(at 122.2375 80.01 0)
+		(property "Reference" "D66"
+			(at 122.2375 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3373,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 122.2375 82.55 0)
+			(at 122.2375 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3381,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 120.65 87.63 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3390,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 120.65 87.63 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3399,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 87.63 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3436,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 113.03 90)
+		(at 107.95 74.93 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3408,8 +3445,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed131f92-1f9d-47e8-87d2-4922b6eedeb9")
-		(property "Reference" "R21"
-			(at 107.95 106.68 90)
+		(property "Reference" "R13"
+			(at 107.95 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3454,7 @@
 			)
 		)
 		(property "Value" "270"
-			(at 107.95 109.22 90)
+			(at 107.95 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3462,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.204 112.014 90)
+			(at 108.204 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 113.03 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3480,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 113.03 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3517,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 74.93 180)
+		(at 120.65 113.03 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3488,8 +3526,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2820ad-b941-4184-a7da-e193508d377c")
-		(property "Reference" "D73"
-			(at 122.2375 67.31 0)
+		(property "Reference" "D65"
+			(at 122.2375 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3497,7 +3535,7 @@
 			)
 		)
 		(property "Value" "IN-S85AT5B"
-			(at 122.2375 69.85 0)
+			(at 122.2375 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3543,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 120.65 74.93 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3552,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/Mono%20Color%20Top%20View/IN-S85AT%20Series_V1.1.pdf"
-			(at 120.65 74.93 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3561,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 74.93 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

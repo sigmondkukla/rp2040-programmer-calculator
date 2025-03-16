@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "7345982c-2d28-4871-8324-a9c5fbabc1ab")
 	(paper "A4")
 	(lib_symbols)
@@ -499,6 +499,10 @@
 	(sheet
 		(at 76.2 76.2)
 		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -528,63 +532,63 @@
 		)
 		(pin "QH'" input
 			(at 88.9 90.17 0)
+			(uuid "51077b3c-1813-4ff3-a4f1-be1d6d6afdee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "51077b3c-1813-4ff3-a4f1-be1d6d6afdee")
 		)
 		(pin "~{OE}" input
 			(at 76.2 90.17 180)
+			(uuid "4fc39841-7131-42df-aa23-779b16012f8f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4fc39841-7131-42df-aa23-779b16012f8f")
 		)
 		(pin "SER" input
 			(at 76.2 78.74 180)
+			(uuid "2a007431-069c-4c9b-8a27-40c17d4b0092")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2a007431-069c-4c9b-8a27-40c17d4b0092")
 		)
 		(pin "RCLK" input
 			(at 76.2 87.63 180)
+			(uuid "c5621466-9931-49e1-8aeb-e14e5464914d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c5621466-9931-49e1-8aeb-e14e5464914d")
 		)
 		(pin "~{SRCLR}" input
 			(at 76.2 83.82 180)
+			(uuid "6f896ab6-c62e-4e1c-b50a-d6d887c6d178")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6f896ab6-c62e-4e1c-b50a-d6d887c6d178")
 		)
 		(pin "SRCLK" input
 			(at 76.2 81.28 180)
+			(uuid "0c1f6381-2ed8-42b2-8a55-800385f2c63a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0c1f6381-2ed8-42b2-8a55-800385f2c63a")
 		)
 		(instances
 			(project "rp2040-programmer-calculator"
@@ -597,6 +601,10 @@
 	(sheet
 		(at 76.2 50.8)
 		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -626,63 +634,63 @@
 		)
 		(pin "QH'" input
 			(at 88.9 64.77 0)
+			(uuid "63102abb-ac2c-4022-b348-1ffc8198f26d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "63102abb-ac2c-4022-b348-1ffc8198f26d")
 		)
 		(pin "~{OE}" input
 			(at 76.2 64.77 180)
+			(uuid "cb77f484-4c9a-4767-b56a-bfb0b864ae8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cb77f484-4c9a-4767-b56a-bfb0b864ae8b")
 		)
 		(pin "SER" input
 			(at 76.2 53.34 180)
+			(uuid "cdc0fdfd-154b-40ce-95e0-36f1cdcbde2d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cdc0fdfd-154b-40ce-95e0-36f1cdcbde2d")
 		)
 		(pin "RCLK" input
 			(at 76.2 62.23 180)
+			(uuid "2629f8f7-30ed-4ff4-90c7-a388b1aad2b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2629f8f7-30ed-4ff4-90c7-a388b1aad2b5")
 		)
 		(pin "~{SRCLR}" input
 			(at 76.2 58.42 180)
+			(uuid "feb1d8ef-c939-4f15-b09c-ea3ad163c666")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "feb1d8ef-c939-4f15-b09c-ea3ad163c666")
 		)
 		(pin "SRCLK" input
 			(at 76.2 55.88 180)
+			(uuid "cbc9790a-09dc-45e7-87ac-d972ec48124b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbc9790a-09dc-45e7-87ac-d972ec48124b")
 		)
 		(instances
 			(project "rp2040-programmer-calculator"
@@ -695,6 +703,10 @@
 	(sheet
 		(at 76.2 127)
 		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -724,63 +736,63 @@
 		)
 		(pin "QH'" input
 			(at 88.9 140.97 0)
+			(uuid "6d479f1d-94c7-4af2-87c0-605bca8d9ea0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6d479f1d-94c7-4af2-87c0-605bca8d9ea0")
 		)
 		(pin "~{OE}" input
 			(at 76.2 140.97 180)
+			(uuid "df80912b-739d-4dba-bdc7-4aecd99eaf5f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "df80912b-739d-4dba-bdc7-4aecd99eaf5f")
 		)
 		(pin "SER" input
 			(at 76.2 129.54 180)
+			(uuid "fca1ead2-ef56-4adc-b0c1-d9a2c40b172e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fca1ead2-ef56-4adc-b0c1-d9a2c40b172e")
 		)
 		(pin "RCLK" input
 			(at 76.2 138.43 180)
+			(uuid "ebd001d8-d7b8-4d9d-9079-5705ac2984cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ebd001d8-d7b8-4d9d-9079-5705ac2984cc")
 		)
 		(pin "~{SRCLR}" input
 			(at 76.2 134.62 180)
+			(uuid "e57c7db7-19b0-4547-8013-80e58a8e2125")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e57c7db7-19b0-4547-8013-80e58a8e2125")
 		)
 		(pin "SRCLK" input
 			(at 76.2 132.08 180)
+			(uuid "5228a110-445e-4f3e-91ad-d1d722d36912")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5228a110-445e-4f3e-91ad-d1d722d36912")
 		)
 		(instances
 			(project "rp2040-programmer-calculator"
@@ -793,6 +805,10 @@
 	(sheet
 		(at 76.2 101.6)
 		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -822,63 +838,63 @@
 		)
 		(pin "QH'" input
 			(at 88.9 115.57 0)
+			(uuid "02b105cc-ad09-4a86-8ff1-ebb939ec007d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "02b105cc-ad09-4a86-8ff1-ebb939ec007d")
 		)
 		(pin "~{OE}" input
 			(at 76.2 115.57 180)
+			(uuid "b82cf5f0-6d2d-4b9f-acdc-7914853a8543")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b82cf5f0-6d2d-4b9f-acdc-7914853a8543")
 		)
 		(pin "SER" input
 			(at 76.2 104.14 180)
+			(uuid "0cc92c07-1b03-4fb5-a961-3f27f0885dd7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0cc92c07-1b03-4fb5-a961-3f27f0885dd7")
 		)
 		(pin "RCLK" input
 			(at 76.2 113.03 180)
+			(uuid "ddb1338e-9599-4253-8720-2f5952732e08")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ddb1338e-9599-4253-8720-2f5952732e08")
 		)
 		(pin "~{SRCLR}" input
 			(at 76.2 109.22 180)
+			(uuid "0831916c-128b-46bd-9a51-1014e14b8c84")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0831916c-128b-46bd-9a51-1014e14b8c84")
 		)
 		(pin "SRCLK" input
 			(at 76.2 106.68 180)
+			(uuid "6fa6c61b-b938-4acb-a289-8c7e2715daf1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6fa6c61b-b938-4acb-a289-8c7e2715daf1")
 		)
 		(instances
 			(project "rp2040-programmer-calculator"
