@@ -8,4 +8,5 @@
   (lib (name "XB7608AJ")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/footprints/XB7608AJ.pretty")(options "")(descr ""))
   (lib (name "EVQP7J01P")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/footprints/EVQP7J01P.pretty")(options "")(descr ""))
   (lib (name "JST_PH_S2B_Reverse_Polarity")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/footprints/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal_Reverse_Polarity.pretty")(options "")(descr ""))
+  (lib (name "HX-TS24CA")(type "KiCad")(uri "${KIPRJMOD}/kicad-library-sigmondkukla/footprints/HX-TS24CA.pretty")(options "")(descr ""))
 )
