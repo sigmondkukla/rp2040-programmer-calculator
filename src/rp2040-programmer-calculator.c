@@ -122,12 +122,12 @@ uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg,uint8_t arg_int, void
 }
 
 void draw_display() {
-	char hey[] = "Hello, world!";
+	char message[] = "Hello, world!";
 	u8g2_ClearBuffer(&u8g2);
   u8g2_ClearDisplay(&u8g2);
 	u8g2_SetDrawColor(&u8g2, 1);
   u8g2_SetFont(&u8g2, u8g2_font_t0_11_te);
-  u8g2_DrawStr(&u8g2, 10, 10, hey);
+  u8g2_DrawStr(&u8g2, 10, 10, message);
   u8g2_UpdateDisplay(&u8g2);
 }
 
@@ -136,58 +136,44 @@ void draw_calculator_display_example() {
   u8g2_SetBitmapMode(&u8g2, 1);
   u8g2_SetFontMode(&u8g2, 1);
 
-  // Bin Divider
-  u8g2_DrawLine(&u8g2, 0, 54, 256, 54);
+  // divider lines
+  u8g2_DrawLine(&u8g2, 0, 54, 256, 54); // horizontal line above BIN
+  u8g2_DrawLine(&u8g2, 0, 44, 256, 44); // horizontal line above DEC
+  u8g2_DrawLine(&u8g2, 0, 34, 256, 34); // horizontal line above HEX
 
-  // Dec Divider
-  u8g2_DrawLine(&u8g2, 0, 44, 256, 44);
+  u8g2_DrawLine(&u8g2, 0, 9, 256, 9); // horizontal line below status bar (above entry)
 
-  // Hex Divider
-  u8g2_DrawLine(&u8g2, 0, 34, 256, 34);
+  // status bar
+  u8g2_DrawXBM(&u8g2, 1, 1, 5, 7, image_status_charge_bits); // charging icon
 
-  // Status Bar Divider
-  u8g2_DrawLine(&u8g2, 0, 9, 256, 9);
-
-  // status_charge
-  u8g2_DrawXBM(&u8g2, 1, 1, 5, 7, image_status_charge_bits);
-
-  // status_battery
+  // battery icon
   u8g2_DrawXBM(&u8g2, 7, 1, 13, 7, image_status_battery_bits);
+  u8g2_DrawBox(&u8g2, 8, 2, 10, 5); // battery fill, size must be adjusted based on charge levels
 
-  // status_shift
-  u8g2_DrawXBM(&u8g2, 248, 1, 7, 7, image_status_shift_bits);
-
-  // Battery Level Box
-  u8g2_DrawBox(&u8g2, 8, 2, 10, 5);
-
-  // Battery Percentage
+  // battery percentage
   u8g2_SetFont(&u8g2, u8g2_font_profont11_tr);
   u8g2_DrawStr(&u8g2, 21, 8, "100%%");
 
-  // BIN
-  u8g2_DrawStr(&u8g2, 1, 63, "BIN:");
+  u8g2_DrawXBM(&u8g2, 248, 1, 7, 7, image_status_shift_bits); // shift icon (top right)
 
-  // DEC
+  // labels for each number mode
   u8g2_DrawStr(&u8g2, 1, 53, "DEC:");
-
-  // HEX
   u8g2_DrawStr(&u8g2, 1, 43, "HEX:");
+  u8g2_DrawStr(&u8g2, 1, 63, "BIN:");
 
   // Active Number Mode
   u8g2_SetDrawColor(&u8g2, 2);
   u8g2_DrawBox(&u8g2, 0, 35, 24, 9);
 
-  // Bin Value
+  // Example values in each mode
   u8g2_SetDrawColor(&u8g2, 1);
-  u8g2_DrawStr(&u8g2, 25, 63, "00000000 00000000 00000000 00000000");
+  u8g2_SetFont(&u8g2, u8g2_font_profont11_tr);
 
-  // Dec Value
-  u8g2_DrawStr(&u8g2, 25, 53, "0");
+  u8g2_DrawStr(&u8g2, 25, 63, "00000000 00000000 00000000 00000000"); // bin
+  u8g2_DrawStr(&u8g2, 25, 53, "0"); // dec
+  u8g2_DrawStr(&u8g2, 25, 43, "00000000"); // hex
 
-  // Hex Value
-  u8g2_DrawStr(&u8g2, 25, 43, "00000000");
-
-  // Entry Text
+  // Entry text example
   u8g2_SetFont(&u8g2, u8g2_font_profont22_tr);
   u8g2_DrawStr(&u8g2, 160, 26, "00000000");
 
