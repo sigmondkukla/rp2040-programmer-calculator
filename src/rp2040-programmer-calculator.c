@@ -24,6 +24,14 @@ void draw_display();
 void gpio_callback(uint gpio, uint32_t events);
 void TCA8418_interrupt_handler(void);
 
+struct KeyPressEvent{
+  uint8_t pressed; // 1 if pressed, 0 if released
+  uint8_t row;
+  uint8_t col;
+};
+
+void interpret_key_event(uint8_t event, struct KeyPressEvent * out);
+
 int main()
 {
     stdio_init_all();
@@ -216,6 +224,33 @@ void gpio_callback(uint gpio, uint32_t events) {
 // matrix
 // for now we assume it is only a keypress interrupt
 void TCA8418_interrupt_handler(void) {
-  uint8_t key = TCA8418_get_event();
-  printf("Key pressed: %d\n", key);
+  uint8_t event = TCA8418_get_event();
+  if (event == 0) return; // maybe there is no key event for some reason. maybe we should also be checking for multiple events...
+
+  struct KeyPressEvent keypress;
+  interpret_key_event(event, &keypress);
+
+  if (keypress.pressed) { // if key pressed
+
+    if (keypress.col <= 4 && keypress.row <= 5){ // if a matrix keypress
+      printf("Matrix key (%d,%d) pressed\n", keypress.row, keypress.col);
+    }
+
+    if (keypress.col >= 5 && keypress.col <= 8){ // if a button keypress (all rows 0-7 are used)
+      printf("Bit button (%d, %d) pressed\n", keypress.row, keypress.col);
+    }
+
+    // at this point, any other combination is invalid
+    printf("Invalid keypress (%d,%d)");
+
+  } else { // key released
+    printf("Key released");
+    return; // we don't care for now
+  }
+}
+
+void interpret_key_event(uint8_t event, struct KeyPressEvent * out){
+  out->pressed = event >> 7; // direction in bit 7 of event
+  out->col = (event & 0x7F) % 10; // 10 columns in matrix, col is remainder of row
+  out->row = (event & 0x7F) / 10; // 10 cols, get row
 }
