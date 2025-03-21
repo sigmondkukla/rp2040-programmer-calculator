@@ -2,6 +2,7 @@
 
 cmake_minimum_required(VERSION 3.13)
 
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -ffunction-sections -fdata-sections -Wl,--gc-sections")
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -44,6 +45,14 @@ pico_set_program_version(rp2040-programmer-calculator "0.1")
 pico_enable_stdio_uart(rp2040-programmer-calculator 0)
 pico_enable_stdio_usb(rp2040-programmer-calculator 1)
 
+# U8G2 library
+target_include_directories(rp2040-programmer-calculator PRIVATE
+        ${CMAKE_CURRENT_LIST_DIR}/u8g2/csrc
+)
+file(GLOB U8G2_SRC ${CMAKE_CURRENT_LIST_DIR}/u8g2/csrc/*.c)
+add_library(u8g2 ${U8G2_SRC})
+target_link_libraries(rp2040-programmer-calculator u8g2)
+
 # Add the standard library to the build
 target_link_libraries(rp2040-programmer-calculator
         pico_stdlib)
@@ -53,10 +62,13 @@ target_include_directories(rp2040-programmer-calculator PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
 )
 
+add_subdirectory(tca8418)
+
 # Add any user requested libraries
 target_link_libraries(rp2040-programmer-calculator 
         hardware_spi
         hardware_i2c
+        tca8418
         )
 
 pico_add_extra_outputs(rp2040-programmer-calculator)
