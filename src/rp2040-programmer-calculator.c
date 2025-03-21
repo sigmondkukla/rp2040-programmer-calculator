@@ -14,7 +14,7 @@ u8g2_t u8g2;
 
 // u8g2 HAL
 uint8_t u8x8_byte_pico_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *arg_ptr);
-uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg,uint8_t arg_int, void *arg_ptr);
+uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *arg_ptr);
 
 // init
 void init_oled();
@@ -28,29 +28,32 @@ void draw_display();
 void gpio_callback(uint gpio, uint32_t events);
 void TCA8418_interrupt_handler(void);
 
-struct KeyPressEvent{
+struct KeyPressEvent
+{
   uint8_t pressed; // 1 if pressed, 0 if released
   uint8_t row;
   uint8_t col;
 };
 
-void interpret_key_event(uint8_t event, struct KeyPressEvent * out);
+void interpret_key_event(uint8_t event, struct KeyPressEvent *out);
 
 int main()
 {
-    stdio_init_all();
+  stdio_init_all();
 
-    init_matrix();
-    init_oled();
-    init_bit_leds();
+  init_matrix();
+  init_oled();
+  init_bit_leds();
 
-    draw_display();
+  draw_display();
 }
 
 // u8g2 and graphics
-uint8_t u8x8_byte_pico_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *arg_ptr) {
+uint8_t u8x8_byte_pico_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *arg_ptr)
+{
   uint8_t *data;
-  switch (msg) {
+  switch (msg)
+  {
   case U8X8_MSG_BYTE_SEND:
     data = (uint8_t *)arg_ptr;
     spi_write_blocking(OLED_SPI_PORT, data, arg_int);
@@ -63,7 +66,7 @@ uint8_t u8x8_byte_pico_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *
     break;
   case U8X8_MSG_BYTE_START_TRANSFER:
     u8x8_gpio_SetCS(u8x8, u8x8->display_info->chip_enable_level);
-    u8x8->gpio_and_delay_cb(u8x8, U8X8_MSG_DELAY_NANO,u8x8->display_info->post_chip_enable_wait_ns, NULL);
+    u8x8->gpio_and_delay_cb(u8x8, U8X8_MSG_DELAY_NANO, u8x8->display_info->post_chip_enable_wait_ns, NULL);
     break;
   case U8X8_MSG_BYTE_END_TRANSFER:
     u8x8->gpio_and_delay_cb(u8x8, U8X8_MSG_DELAY_NANO,
@@ -76,9 +79,11 @@ uint8_t u8x8_byte_pico_hw_spi(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *
   return 1;
 }
 
-uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg,uint8_t arg_int, void *arg_ptr) {
-  switch (msg) {
-  case U8X8_MSG_GPIO_AND_DELAY_INIT: 
+uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg, uint8_t arg_int, void *arg_ptr)
+{
+  switch (msg)
+  {
+  case U8X8_MSG_GPIO_AND_DELAY_INIT:
     spi_init(OLED_SPI_PORT, OLED_SPI_SPEED);
     gpio_set_function(OLED_CS, GPIO_FUNC_SIO);
     gpio_set_function(OLED_SPI_CLK, GPIO_FUNC_SPI);
@@ -92,9 +97,9 @@ uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg,uint8_t arg_int, void
     gpio_put(OLED_RESET, 1);
     gpio_put(OLED_CS, 1);
     gpio_put(OLED_DC, 0);
-    break;                  
+    break;
   case U8X8_MSG_DELAY_NANO: // delay arg_int * 1 nano second
-    sleep_us(arg_int); // 1000 times slower, though generally fine in practice given rp2040 has no `sleep_ns()`
+    sleep_us(arg_int);      // 1000 times slower, though generally fine in practice given rp2040 has no `sleep_ns()`
     break;
   case U8X8_MSG_DELAY_100NANO: // delay arg_int * 100 nano seconds
     sleep_us(arg_int);
@@ -111,8 +116,8 @@ uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg,uint8_t arg_int, void
   case U8X8_MSG_GPIO_DC: // DC (data/cmd, A0, register select) pin: Output level
     gpio_put(OLED_DC, arg_int);
     break;
-  case U8X8_MSG_GPIO_RESET: // Reset pin: Output level in arg_int
-    gpio_put(OLED_RESET, arg_int);  // printf("U8X8_MSG_GPIO_RESET %d\n", arg_int);
+  case U8X8_MSG_GPIO_RESET:        // Reset pin: Output level in arg_int
+    gpio_put(OLED_RESET, arg_int); // printf("U8X8_MSG_GPIO_RESET %d\n", arg_int);
     break;
   default:
     u8x8_SetGPIOResult(u8x8, 1); // default return value
@@ -121,18 +126,20 @@ uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg,uint8_t arg_int, void
   return 1;
 }
 
-void draw_display() {
-	char message[] = "Hello, world!";
-	u8g2_ClearBuffer(&u8g2);
+void draw_display()
+{
+  char message[] = "Hello, world!";
+  u8g2_ClearBuffer(&u8g2);
   u8g2_ClearDisplay(&u8g2);
-	u8g2_SetDrawColor(&u8g2, 1);
+  u8g2_SetDrawColor(&u8g2, 1);
   u8g2_SetFont(&u8g2, u8g2_font_t0_11_te);
   u8g2_DrawStr(&u8g2, 10, 10, message);
   u8g2_UpdateDisplay(&u8g2);
 }
 
-void draw_calculator_display_example() {
-  u8g2_ClearBuffer(&u8g2); 
+void draw_calculator_display_example()
+{
+  u8g2_ClearBuffer(&u8g2);
   u8g2_SetBitmapMode(&u8g2, 1);
   u8g2_SetFontMode(&u8g2, 1);
 
@@ -170,24 +177,26 @@ void draw_calculator_display_example() {
   u8g2_SetFont(&u8g2, u8g2_font_profont11_tr);
 
   u8g2_DrawStr(&u8g2, 25, 63, "00000000 00000000 00000000 00000000"); // bin
-  u8g2_DrawStr(&u8g2, 25, 53, "0"); // dec
-  u8g2_DrawStr(&u8g2, 25, 43, "00000000"); // hex
+  u8g2_DrawStr(&u8g2, 25, 53, "0");                                   // dec
+  u8g2_DrawStr(&u8g2, 25, 43, "00000000");                            // hex
 
   // Entry text example
   u8g2_SetFont(&u8g2, u8g2_font_profont22_tr);
   u8g2_DrawStr(&u8g2, 160, 26, "00000000");
 
-  u8g2_SendBuffer(&u8g2); 
+  u8g2_SendBuffer(&u8g2);
 }
 
 // init
-void init_oled(){
+void init_oled()
+{
   u8g2_Setup_ssd1322_nhd_256x64_f(&u8g2, U8G2_R0, u8x8_byte_pico_hw_spi, u8x8_gpio_and_delay_pico); // or instead of nhd, zjy
-  u8g2_InitDisplay(&u8g2); // send init sequence to the display, display is in sleep mode after this,
-  u8g2_SetPowerSave(&u8g2, 0); 
+  u8g2_InitDisplay(&u8g2);                                                                          // send init sequence to the display, display is in sleep mode after this,
+  u8g2_SetPowerSave(&u8g2, 0);
 }
 
-void init_matrix() {
+void init_matrix()
+{
   // Setup TCA8418
   TCA8418_init();
   TCA8418_matrix(8, 10);
@@ -195,57 +204,67 @@ void init_matrix() {
   TCA8418_set_debounce(1);
 
   // Setup interrupt pin
-  gpio_init(TCA8418_INT); // initialize GPIO pin
+  gpio_init(TCA8418_INT);             // initialize GPIO pin
   gpio_set_dir(TCA8418_INT, GPIO_IN); // configure as input
   gpio_set_irq_enabled_with_callback(TCA8418_INT, GPIO_IRQ_EDGE_FALL, true, &gpio_callback);
 }
 
-void init_bit_leds() {
+void init_bit_leds()
+{
   bit_leds_init();
 }
 
 // matrix functions
-void gpio_callback(uint gpio, uint32_t events) {
+void gpio_callback(uint gpio, uint32_t events)
+{
   // determine why the interrupt was triggered
-  switch (gpio) {
-    case TCA8418_INT:
-      TCA8418_interrupt_handler();
-      break;
-    default:
-      printf("Unknown GPIO interrupt on pin %d\n", gpio);
-      break;
+  switch (gpio)
+  {
+  case TCA8418_INT:
+    TCA8418_interrupt_handler();
+    break;
+  default:
+    printf("Unknown GPIO interrupt on pin %d\n", gpio);
+    break;
   }
 }
 
 // for now we assume it is only a keypress interrupt
-void TCA8418_interrupt_handler(void) {
+void TCA8418_interrupt_handler(void)
+{
   uint8_t event = TCA8418_get_event();
-  if (event == 0) return; // maybe there is no key event for some reason. maybe we should also be checking for multiple events...
+  if (event == 0)
+    return; // maybe there is no key event for some reason. maybe we should also be checking for multiple events...
 
   struct KeyPressEvent keypress;
   interpret_key_event(event, &keypress);
 
-  if (keypress.pressed) { // if key pressed
+  if (keypress.pressed)
+  { // if key pressed
 
-    if (keypress.col <= 4 && keypress.row <= 5){ // if a matrix keypress
+    if (keypress.col <= 4 && keypress.row <= 5)
+    { // if a matrix keypress
       printf("Matrix key (%d,%d) pressed\n", keypress.row, keypress.col);
     }
 
-    if (keypress.col >= 5 && keypress.col <= 8){ // if a button keypress (all rows 0-7 are used)
+    if (keypress.col >= 5 && keypress.col <= 8)
+    { // if a button keypress (all rows 0-7 are used)
       printf("Bit button (%d, %d) pressed\n", keypress.row, keypress.col);
     }
 
     // at this point, any other combination is invalid
     printf("Invalid keypress (%d,%d)");
-
-  } else { // key released
+  }
+  else
+  { // key released
     printf("Key released");
     return; // we don't care for now
   }
 }
 
-void interpret_key_event(uint8_t event, struct KeyPressEvent * out){
-  out->pressed = event >> 7; // direction in bit 7 of event
+void interpret_key_event(uint8_t event, struct KeyPressEvent *out)
+{
+  out->pressed = event >> 7;      // direction in bit 7 of event
   out->col = (event & 0x7F) % 10; // 10 columns in matrix, col is remainder of row
   out->row = (event & 0x7F) / 10; // 10 cols, get row
 }
