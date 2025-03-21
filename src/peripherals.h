@@ -30,8 +30,8 @@
 #define CHARGER_STDBY 19
 #define CHARGER_CHRG 20
 // 21 reserved
-#define PWR_EN 22
-#define PWR_BTN 23
+#define POWER_EN 22
+#define POWER_BTN 23
 // 24 reserved
 #define BAT_ADC_EN 25
 #define BAT_ADC 26

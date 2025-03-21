@@ -39,6 +39,8 @@ void interpret_key_event(uint8_t event, struct KeyPressEvent *out);
 
 int main()
 {
+  init_power(); // latch soft power on
+
   stdio_init_all();
 
   init_matrix();
@@ -214,6 +216,18 @@ void init_bit_leds()
   bit_leds_init();
 }
 
+void init_power(){
+  // Immediately latch power on
+  gpio_init(POWER_EN);
+  gpio_set_dir(POWER_EN, GPIO_OUT);
+  gpio_put(POWER_EN, 1); // latch soft power on
+
+  gpio_init(POWER_BTN);
+  gpio_set_dir(POWER_BTN, GPIO_IN);
+  gpio_pull_up(POWER_BTN); // pull up, button press will pull down
+  gpio_set_irq_enabled_with_callback(POWER_BTN, GPIO_IRQ_EDGE_FALL, true, &gpio_callback); // interrupt on button press
+}
+
 // matrix functions
 void gpio_callback(uint gpio, uint32_t events)
 {
@@ -222,6 +236,9 @@ void gpio_callback(uint gpio, uint32_t events)
   {
   case TCA8418_INT:
     TCA8418_interrupt_handler();
+    break;
+  case POWER_BTN:
+    printf("Power button pressed\n");
     break;
   default:
     printf("Unknown GPIO interrupt on pin %d\n", gpio);
