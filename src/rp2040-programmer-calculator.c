@@ -2,10 +2,13 @@
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
 #include "hardware/i2c.h"
+#include "hardware/gpio.h"
+#include "hardware/irq.h"
 #include <u8g2.h>
 #include "peripherals.h"
 #include "tca8418.h"
 #include "images.h"
+#include "bit_leds.h"
 
 u8g2_t u8g2;
 
@@ -16,6 +19,7 @@ uint8_t u8x8_gpio_and_delay_pico(u8x8_t *u8x8, uint8_t msg,uint8_t arg_int, void
 // init
 void init_oled();
 void init_matrix();
+void init_bit_leds();
 
 // graphics
 void draw_display();
@@ -38,6 +42,7 @@ int main()
 
     init_matrix();
     init_oled();
+    init_bit_leds();
 
     draw_display();
 }
@@ -209,6 +214,11 @@ void init_matrix() {
   gpio_set_irq_enabled_with_callback(TCA8418_INT, GPIO_IRQ_EDGE_FALL, true, &gpio_callback);
 }
 
+void init_bit_leds() {
+  bit_leds_init();
+}
+
+// matrix functions
 void gpio_callback(uint gpio, uint32_t events) {
   // determine why the interrupt was triggered
   switch (gpio) {
@@ -221,7 +231,6 @@ void gpio_callback(uint gpio, uint32_t events) {
   }
 }
 
-// matrix
 // for now we assume it is only a keypress interrupt
 void TCA8418_interrupt_handler(void) {
   uint8_t event = TCA8418_get_event();
