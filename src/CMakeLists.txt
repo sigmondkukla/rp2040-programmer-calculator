@@ -63,12 +63,14 @@ target_include_directories(rp2040-programmer-calculator PRIVATE
 )
 
 add_subdirectory(tca8418)
+add_subdirectory(bit_leds)
 
 # Add any user requested libraries
 target_link_libraries(rp2040-programmer-calculator 
         hardware_spi
         hardware_i2c
         tca8418
+        bit_leds
         )
 
 pico_add_extra_outputs(rp2040-programmer-calculator)
