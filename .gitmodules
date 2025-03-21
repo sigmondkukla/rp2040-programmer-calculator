@@ -1,3 +1,6 @@
 [submodule "pcb/rp2040-programmer-calculator/kicad-library-sigmondkukla"]
 	path = pcb/rp2040-programmer-calculator/kicad-library-sigmondkukla
 	url = git@github.com:sigmondkukla/kicad-library-sigmondkukla
+[submodule "src/u8g2"]
+	path = src/u8g2
+	url = git@github.com:olikraus/u8g2.git
